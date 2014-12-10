@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Layer selector example | CartoDB.js</title>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	<link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
+	<style>
+	  html, body, #map {
+		height: 100%;
+		padding: 0;
+		margin: 0;
+
+	  }
+ 
+	  #layer_selector {
+		position: absolute;
+		top: 60px;
+		right: 20px;
+		padding: 0;
+	  }
+ 
+	  #layer_selector ul {
+		padding: 0; margin: 0;
+		list-style-type: none;
+	  }
+ 
+	  #layer_selector li {
+		border-bottom: 1px solid #999;
+		padding: 15px 30px;
+		font-family: "Helvetica", Arial;
+		font-size: 13px;
+		color: #444;
+		cursor: auto;
+	  }
+ 
+	  #layer_selector li:hover {
+		background-color: #F0F0F0;
+		cursor: pointer;
+	  }
+ 
+	  #layer_selector li.selected {
+		background-color: #eee;
+	  }
+	</style>
+ 
+	<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
+	<!--[if lte IE 8]>
+		<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.ie.css" />
+	<![endif]-->
+  </head>
+  <body>
+	<div id="map"></div>
+	<div id="layer_selector" class="cartodb-infobox">
+	  <ul>
+		<li id="abc" data-layer="1">Capital Project Spend Per Capita</li>
+		<li id="efg" data-layer="2">Total Capital Project Budget</li>
+		<li id="hij" data-layer="3">Number of Capital Projects</li>
+	  </ul>
+	</div>
+ 
+	<!-- include cartodb.js library -->
+	<script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+	var sql = new cartodb.SQL({ user: 'msnimbus' });
+	var url = 'http://msnimbus.cartodb.com/api/v2/viz/eb10de06-7a19-11e4-bbe9-0e9d821ea90d/viz.json';
+	$(function() {
+		cartodb.createVis('map', url)
+		.done(function(vis, layers) {
+			vis.getOverlay("layer_selector").hide();
+			
+			layers[1].getSubLayer(1).show();
+			$('#layer_selector li').on("click", function(e) {
+				var layer = $(this).attr('data-layer');
+				$("#layer_selector li").removeClass("selected");
+				$(this).addClass("selected");
+				for(var x = 1; x < 4; x++) {
+					layers[1].getSubLayer(x).hide();
+				}
+				layers[1].getSubLayer(layer).show();
+			});
+		});
+	});
+ 
+	  var layerN = {};
+	</script>
+  </body>
+</html>
