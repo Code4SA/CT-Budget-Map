@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+	  html, body {
+		height: 100%;
+		padding: 0;
+		margin: 0;
+		font-family: 'Open Sans', helvetica, sans serif;
+	  }
+
+	  #map {
+	  	height: 80px;
+	  	height: 80vh;
+	  }
+ 
+	  #layer_selector {
+		position: absolute;
+		top: 90px;
+		right: 65px;
+		padding: 0;
+	  }
+ 
+	  #layer_selector ul {
+		padding: 0; margin: 0;
+		list-style-type: none;
+	  }
+ 
+	  #layer_selector li {
+		padding: 10px 10px;
+		margin-bottom: 3px;
+		font-size: 11px;
+		text-transform: uppercase;
+		color: #fff;
+		cursor: auto;
+		border-radius: 5px;
+		background-color: rgba(71,71,71, 0.8);
+		
+	  }
+ 
+	  #layer_selector li:hover {
+		background-color: rgba(241,141,45, 0.8);
+		cursor: pointer;
+		color: #fff;
+	  }
+ 
+	  #layer_selector li.selected {
+		background-color: rgba(241,141,45, 0.8);
+		color: #fff;
+	  }
+	  
+	  .cartodb-overlay.overlay-text .content, .cartodb-overlay.overlay-annotation .content {
+		  padding: 10px 10px 10px 80px !important;
+		  		background-attachment: scroll;
+    	background-clip: border-box;
+    	background-image: url("img/NU_logo.png");
+   		background-origin: padding-box;
+    	background-position: left center;
+    	background-repeat: no-repeat;
+    background-size: auto 100% !important;
+	  }
+	  
+	  .cartodb-overlay.overlay-text .content > .text strong {
+		font-family: "Amatic SC" !important;
+		font-weight: 400 !important;
+	  }
+	  
