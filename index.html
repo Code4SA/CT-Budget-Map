@@ -10,6 +10,7 @@
     <link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
+    <script src="js/modernizr.custom.js"></script>
 	<!--[if lte IE 8]>
 		<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.ie.css" />
 	<![endif]-->
@@ -24,8 +25,36 @@
 		<li id="hij" data-layer="3">Number of Capital Projects</li>
 	  </ul>
 	</div>
+    
+    <div id="info-button"><button id="showLeft">SHOW/HIDE INFO</button>
+    </div>
+    
+    <div class="cbp-spmenu-left" id="cbp-spmenu-s1"> <p>This interactive map shows the distribution of the City of Cape Town capital project budget across wards. Note that multi-ward projects, that account for a large proportion of the capital budget, are not included.</p>
+    <strong>TOP 5 WARDS</strong>, TOTAL CAPITAL PROJECT BUDGET:
+    <ol>
+    <li>Ward 77 (Central Cape Town) - R672 553 937,00 </li>
+    <li>Ward 100 (Somerset West area) - R661 809 171,00</li>
+    <li>Ward 49 (Athlone area) - R520 357 367,00</li>
+    <li>Ward 51 (Langa) - R519 625 000,00</li>
+    <li>Ward 43 (Strandfontein/Rocklands area) - R496 123 366,00</li>
+    </ol>
+    
+    <strong>BOTTOM 5 WARDS</strong>, TOTAL CAPITAL PROJECT BUDGET:
+    <ol>
+    <li>Ward 90 (Khayelitsha) - R10 000,00</li>
+    <li>Ward 89 (Khayelitsha) - R10 000,00</li>
+    <li>Ward 91 (Khayelitsha) - R60 000,00</li>
+    <li>Ward 52 (Langa) - R233 852,00</li>
+    <li>Ward 48 (Athlone area) - R300 000,00</li>
+    </ol>
+    
+    <p>Data was sourced from The <a href="http://www.capetown.gov.za" target="_blank">City of Cape Town</a>, <a href="http://www.statssa.gov.za/census2011/default.asp" target="_blank">2011 Census</a> and the <a href="http://www.elections.org.za/" target="_blank">IEC</a>. This is an <a href="http://nu.org.za/" target="_blank">Ndifuna Ukwazi</a> and <a href="http://code4sa.org/" target="_blank">Code for South Africa</a> project.</p>
+    
+    </div>
+    
  	<div id="content" class="container">
- 		Stuff to come here
+ 		<h3>How is the capital budget being spent in your area?</h3>
+        <p>Use the menu at the top right to view different map layers. <br>Click on a ward on the map for more detailed information. <br>Show and hide more detailed information about the project using the button near the top left.</p>
  	</div>
 	<!-- include cartodb.js library -->
 	<script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
@@ -37,12 +66,13 @@
 	$(function() {
 		cartodb.createVis('map', url, {
 			scrollwheel: false,
+			search: true,
 		})
 		.done(function(vis, layers) {
 			  // Set max zoom
          	vis.map.set({
             minZoom: 9,
-            maxZoom: 12
+            maxZoom: 15
           });
 			
 			vis.getOverlay("layer_selector").hide();
@@ -84,7 +114,7 @@
 	});
 
 	Handlebars.registerHelper('formatCurrency', function(value) {
-		return "ZAR" + value.toLocaleString();
+		return "ZAR " + value.toLocaleString();
 	});
 
 	Handlebars.registerHelper('formatNumber', function(value) {
@@ -94,6 +124,7 @@
 	  var layerN = {};
 	</script>
 	<script type="text/x-handlebars-template" id="ward_template">
+	<div class="leftColumn">
 		<h1>Ward <span id="ward-id">{{ ward_number }}</span></h1>
 		<dl>
 			<dt>Population</dt> <dd>{{ formatNumber population }}</dd>
@@ -102,6 +133,8 @@
 			<dt>Party</dt> <dd>{{ wardwinner }}</dd>
 			<dt>Total Capital Project Budget</dt> <dd>{{ formatCurrency total_capital_project_budget_for_this_ward }}</dd>
 		</dl>
+	</div>
+	<div class="rightColumn">
 		<div id="capital_expenditure">
 		<h3>Expenditures</h3>
 			<table class="table table-striped table-bordered">
@@ -117,7 +150,29 @@
 			{{/each}}
 			</table>
 		</div>
+		</div>
 	</script>
+    
+    <!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script>
+			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+				showLeft = document.getElementById( 'showLeft' ),
+				body = document.body;
+
+			showLeft.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( menuLeft, 'cbp-spmenu-open' );
+				disableOther( 'showLeft' );
+			};
+
+			function disableOther( button ) {
+				if( button !== 'showLeft' ) {
+					classie.toggle( showLeft, 'disabled' );
+				}
+				
+			}
+		</script>
 
 
   </body>
