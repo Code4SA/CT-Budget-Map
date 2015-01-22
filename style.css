@@ -48,8 +48,8 @@
 	  .cbp-spmenu-left {
 		position: absolute;
 		width: 400px;
-		height: 50%;
-		top: 130px;
+		height: 60%;
+		top: 110px;
 		z-index: 1000;
 		left: -400px;
 		-webkit-transition: all 0.3s ease;

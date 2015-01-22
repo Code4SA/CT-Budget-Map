@@ -67,12 +67,15 @@
 		cartodb.createVis('map', url, {
 			scrollwheel: false,
 			search: true,
+			legend: true,
+			
 		})
 		.done(function(vis, layers) {
 			  // Set max zoom
          	vis.map.set({
             minZoom: 9,
-            maxZoom: 15
+            maxZoom: 15,
+			
           });
 			
 			vis.getOverlay("layer_selector").hide();
