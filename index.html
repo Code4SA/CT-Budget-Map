@@ -108,9 +108,9 @@
 		var councillors = {};
 		$.get("./data/ward_councillors_ct_2015.json")
 		.done(function(data) {
-			data.forEach(function(councillor) {
-				councillors["ward" + councillor.ward] = councillor;
-			});
+			for(var x = 0; x < data.length; x++) {
+				councillors["ward" + data[x].ward] = data[x];
+			};
 			console.log(councillors);
 		});
 	});
