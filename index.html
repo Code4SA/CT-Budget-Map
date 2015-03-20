@@ -54,6 +54,7 @@
 					$("#content").html("<img src='http://libs.cartocdn.com/cartodb.js/v3/themes/img/loader.gif'>");
 					sql.execute("SELECT table_budget_2014_15_merge.*, table_budget_2014_15_merge.budget_2014_15 AS total_budget, march2015_projectsformap.* FROM table_budget_2014_15_merge, march2015_projectsformap WHERE table_budget_2014_15_merge.cartodb_id = {{id}} AND table_budget_2014_15_merge.wardno = march2015_projectsformap.ward AND march2015_projectsformap.budget_2014_15 > 0", { id: data.cartodb_id })
 					.done(function(data) {
+						console.log(data.rows[0]);
 						var template = Handlebars.compile($("#ward_template").html());
 						$("#content").html(template({ ward: data.rows[0], projects: data.rows }));
 					})
@@ -150,12 +151,27 @@
 				<th>{{{ formatCurrency ward.total_budget }}}</th>
 			</table>
 		</div>
-		</div>
+	</div>
+	<br clear="both">
+	<div id="wazi">
+		<iframe id="cr-embed-ward-{{ ward.ward_id }}-demographics-population_group_distribution" class="census-reporter-embed" src="http://embed.wazimap.co.za/static/iframe.html?geoID=ward-{{ ward.ward_id }}&chartDataID=demographics-population_group_distribution&chartType=column&chartHeight=200&chartQualifier=&chartTitle=Population+group&initialSort=&statType=scaled-percentage" frameborder="0" width="100%" height="300" style="margin: 1em; max-width: 720px;"></iframe>
+
+		<iframe id="cr-embed-ward-{{ ward.ward_id }}-economics-individual_income_distribution" class="census-reporter-embed" src="http://embed.wazimap.co.za/static/iframe.html?geoID=ward-{{ ward.ward_id }}&chartDataID=economics-individual_income_distribution&chartType=histogram&chartHeight=200&chartQualifier=Universe%3A+Employed+individuals&chartTitle=Employees+by+monthly+income&initialSort=&statType=scaled-percentage" frameborder="0" width="100%" height="300" style="margin: 1em; max-width: 720px;"></iframe>
+		
+		<iframe id="cr-embed-ward-{{ ward.ward_id }}-service_delivery-water_source_distribution" class="census-reporter-embed" src="http://embed.wazimap.co.za/static/iframe.html?geoID=ward-{{ ward.ward_id }}&chartDataID=service_delivery-water_source_distribution&chartType=pie&chartHeight=200&chartQualifier=&chartTitle=Population+by+water+source&initialSort=&statType=percentage" frameborder="0" width="100%" height="300" style="margin: 1em; max-width: 300px;"></iframe>
+
+		<iframe id="cr-embed-ward-{{ ward.ward_id }}-service_delivery-electricity_access_distribution" class="census-reporter-embed" src="http://embed.wazimap.co.za/static/iframe.html?geoID=ward-{{ ward.ward_id }}&chartDataID=service_delivery-electricity_access_distribution&chartType=pie&chartHeight=200&chartQualifier=&chartTitle=Population+by+electricity+usage&initialSort=&statType=percentage" frameborder="0" width="100%" height="300" style="margin: 1em; max-width: 300px;"></iframe>
+
+		<iframe id="cr-embed-ward-{{ ward.ward_id }}-service_delivery-toilet_facilities_distribution" class="census-reporter-embed" src="http://embed.wazimap.co.za/static/iframe.html?geoID=ward-{{ ward.ward_id }}&chartDataID=service_delivery-toilet_facilities_distribution&chartType=pie&chartHeight=200&chartQualifier=&chartTitle=Population+by+toilet+facilities&initialSort=&statType=percentage" frameborder="0" width="100%" height="300" style="margin: 1em; max-width: 300px;"></iframe>
+
+		<iframe id="cr-embed-ward-{{ ward.ward_id }}-service_delivery-refuse_disposal_distribution" class="census-reporter-embed" src="http://embed.wazimap.co.za/static/iframe.html?geoID=ward-{{ ward.ward_id }}&chartDataID=service_delivery-refuse_disposal_distribution&chartType=pie&chartHeight=200&chartQualifier=&chartTitle=Population+by+refuse+disposal&initialSort=&statType=percentage" frameborder="0" width="100%" height="300" style="margin: 1em; max-width: 300px;"></iframe>
+		
+		
 	</script>
     
     <!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
 		<script src="js/classie.js"></script>
-        
+        <script src="http://embed.wazimap.co.za/static/js/embed.chart.make.js"></script>
         <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
