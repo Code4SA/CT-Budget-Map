@@ -26,7 +26,7 @@
     
     <!--legend-->
     <div id="legend-main">
-    <img src="img/legend.gif" width="239" height="212"></div>
+    <!-- <img src="img/legend.gif" width="239" height="212"></div> -->
   <!-- mobile legend button -->
     <div id="legend-trigger">
     	<span>Legend</span>
@@ -38,9 +38,10 @@
 	<div id="layer_selector">
     	<nav id="nav-main">
 	 		 <ul id="nav-main">
-				<li id="abc" data-layer="1" class="selected">Capital Project Spend Per Capita</li>
-				<li id="efg" data-layer="2">Total Capital Project Budget</li>
-				<li id="hij" data-layer="3">Number of Capital Projects</li>
+	 		 	<li id="abc" data-layer="0" class="selected">Budget 2014-15</li>
+				<li id="abc" data-layer="1">Water Sanitation</li>
+				<li id="efg" data-layer="2">Number of Projects</li>
+				<li id="hij" data-layer="3">Budget per Capita</li>
 	 		 </ul>
       	</nav>
         <!-- mobile nav button-->
@@ -48,7 +49,7 @@
     		<span>Menu</span>
 		</div>
 		<nav id="nav-mobile"></nav>
-	</div>
+	</div> 
     
     
     
@@ -106,25 +107,25 @@
 			
           });
 			
-			vis.getOverlay("layer_selector").hide();
-			layers[1].getSubLayer(1).show();
-			$('#layer_selector li').on("click", function(e) {
-				var layer = $(this).attr('data-layer');
-				$("#layer_selector li").removeClass("selected");
-				$(this).addClass("selected");
-				for(var x = 1; x < 4; x++) {
-					layers[1].getSubLayer(x).hide();
-				}
-				layers[1].getSubLayer(layer).show();
-			});
+			// vis.getOverlay("layer_selector").hide();
+			// layers[1].getSubLayer(0).show();
+			// $('#layer_selector li').on("click", function(e) {
+			// 	var layer = $(this).attr('data-layer');
+			// 	$("#layer_selector li").removeClass("selected");
+			// 	$(this).addClass("selected");
+			// 	for(var x = 1; x < 4; x++) {
+			// 		layers[1].getSubLayer(x).hide();
+			// 	}
+			// 	layers[1].getSubLayer(layer).show();
+			// });
 			for(var x = 0; x < 4; x++) {
 				layers[1].getSubLayer(x).on("featureClick", function(e, latlng, pos, data, subLayerIndex) {
 					$("#content").html("<img src='http://libs.cartocdn.com/cartodb.js/v3/themes/img/loader.gif'>");
-					console.log("Initial data", data);
+					// console.log("Initial data", data);
 					
 					sql.execute("SELECT table_budget_2014_15_merge.*, table_budget_2014_15_merge.budget_2014_15 AS total_budget, march2015_projectsformap.* FROM table_budget_2014_15_merge, march2015_projectsformap WHERE table_budget_2014_15_merge.cartodb_id = {{id}} AND table_budget_2014_15_merge.wardno = march2015_projectsformap.ward AND march2015_projectsformap.budget_2014_15 > 0", { id: data.cartodb_id })
 					.done(function(data) {
-						console.log(data);
+						// console.log(data);
 						var template = Handlebars.compile($("#ward_template").html());
 						$("#content").html(template({ ward: data.rows[0], projects: data.rows }));
 					})
