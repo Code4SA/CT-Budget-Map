@@ -24,17 +24,35 @@
 	  	height: 80vh;
 		border-bottom: 1px dashed #333;
 	  }
+	  
+	  #logos
+	  {
+		position: absolute;
+		top: 8px;
+		right: 5px;
+		padding: 0;
+	  }
+	  
+	  #logos img {margin-bottom: 3px;}
+	  
  
 	  #layer_selector {
 		position: absolute;
-		top: 90px;
-		right: 65px;
+		top: 10px;
+		right: 120px;
+		padding: 0;
+	  }
+	  
+	  #legend-main {
+		position: absolute;
+		top: 130px;
+		right: 120px;
 		padding: 0;
 	  }
 	  
 	  #info-button {
 		position: absolute;
-		top: 75px;
+		top: 65px;
 		left: 70px;
 		padding: 0;
 	  }
@@ -48,15 +66,15 @@
 	  .cbp-spmenu-left {
 		position: absolute;
 		width: 400px;
-		height: 60%;
-		top: 110px;
+		height: 410px;
+		top: 100px;
 		z-index: 1000;
 		left: -400px;
 		-webkit-transition: all 0.3s ease;
 		-moz-transition: all 0.3s ease;
 		transition: all 0.3s ease;
 		background-color:rgba(255,255,255,0.8);
-		padding: 20px;
+		padding: 5px 15px;
 		font-size:11px;
 	  }
 	  
@@ -92,17 +110,136 @@
 		color: #fff;
 	  }
 	  
-	  /* logo and heading */
+	  /* =Nav responsive
+-------------------------------------------------------------- */
+#nav-trigger {
+  display: none;
+  text-align: center; }
+  #nav-trigger span {
+    display: inline-block;
+    padding: 10px 30px;
+    background: rgba(241, 141, 45, 0.8);
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase; 
+	border-radius: 5px;}
+    #nav-trigger span:after {
+      display: inline-block;
+      margin-left: 10px;
+      width: 20px;
+      height: 10px;
+      content: "";
+      border-left: solid 10px transparent;
+      border-top: solid 10px #fff;
+      border-right: solid 10px transparent; }
+    #nav-trigger span:hover {
+      background-color: rgba(71, 71, 71, 0.8); }
+    #nav-trigger span.open:after {
+      border-left: solid 10px transparent;
+      border-top: none;
+      border-bottom: solid 10px #fff;
+      border-right: solid 10px transparent; }
+
+nav {
+  margin-bottom: 30px; }
+
+
+  nav#nav-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+
+    nav#nav-main li:last-child {
+      border-right: none; }
+  nav#nav-main a {
+    display: block;
+    color: white;
+    padding: 10px 30px; }
+    nav#nav-main a:hover {
+      background-color: #474747;
+      color: #fff; }
+
+nav#nav-mobile {
+  position: relative;
+  display: none; }
+  nav#nav-mobile ul {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    text-align: center;
+}
+	
+  nav#nav-mobile li {
+ }
+	
+    nav#nav-mobile li:last-child {
+      border-bottom: none; }
+  nav#nav-mobile a {
+    display: block;
+    color: white;
+    padding: 10px 30px; }
+    nav#nav-mobile a:hover {
+      background-color: #e6002d;
+      color: #fff; }
+
+	  /* =legend responsive
+-------------------------------------------------------------- */
+#legend-trigger {
+  display: none;
+  text-align: center; 
+  position: absolute;
+  top: 60px;
+  right: 10px; }
+  #legend-trigger span {
+    display: inline-block;
+    padding: 10px 23px;
+    background: rgba(241, 141, 45, 0.8);
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase; 
+	border-radius: 5px;}
+    #legend-trigger span:after {
+      display: inline-block;
+      margin-left: 10px;
+      width: 20px;
+      height: 10px;
+      content: "";
+      border-left: solid 10px transparent;
+      border-top: solid 10px #fff;
+      border-right: solid 10px transparent; }
+    #legend-trigger span:hover {
+      background-color: rgba(71, 71, 71, 0.8); }
+    #legend-trigger span.open:after {
+      border-left: solid 10px transparent;
+      border-top: none;
+      border-bottom: solid 10px #fff;
+      border-right: solid 10px transparent; }
+
+
+#legend-mobile {
+  position: absolute;
+  display: none;
+  top: 60px;
+  right: 120px; }
+
+
+
+
+
+	  
+	  /* heading */
 	  .cartodb-overlay.overlay-text .content, .cartodb-overlay.overlay-annotation .content {
-		  padding: 10px 10px 10px 80px !important;
+		  padding: 10px 10px 10px 10px !important;
 		  		background-attachment: scroll;
     	background-clip: border-box;
-    	background-image: url("img/NU_logo.png");
    		background-origin: padding-box;
     	background-position: left center;
     	background-repeat: no-repeat;
     background-size: auto 100% !important;
+	top: 200px !important;
 	  }
+
 	  
 	  .cartodb-overlay.overlay-text .content > .text strong {
 		font-family: "Amatic SC" !important;
@@ -142,9 +279,96 @@
 
 	.rightColumn { position: absolute; top: 0; right: 0; width: 50%; } 
 	
-
 }
 
+@media all and (max-width: 900px) {
+  #nav-trigger {
+    display: block; 
+	}
+
+  nav#nav-main {
+    display: none; }
+
+  nav#nav-mobile {
+    display: block; }
+	
+	  #legend-trigger {
+    display: block; 
+		right: 120px;
+	top: 10px;}
+
+  #legend-main {
+    display: none; 
+}
+
+  #legend-mobile {
+    display: none; }
+	
+	#layer_selector {top: 10px;
+	right: 260px;
+	}
+	
+	#layer_selector li {border-radius: 0px;
+	}
+}
+
+@media all and (max-width: 730px) {
+		#layer_selector {top: 10px;
+	right: 120px;
+	}
+	
+		  #legend-trigger {
+		right: 120px;
+	top: 60px;}
+	
+	  #legend-mobile {
+    top: 100px; }
+	
+}
+
+@media all and (max-width: 570px) {
+		#layer_selector {top: 60px;
+	right: 120px;
+	}
+	
+		  #legend-trigger {
+		right: 120px;
+	top: 105px;}
+	
+	  #legend-mobile {
+    top: 160px; 
+	z-index:1001;}
+	
+}
+
+@media all and (max-width: 430px) {
+		#layer_selector {top: 80px;
+	right: 120px;
+	}
+	
+		  #legend-trigger {
+		right: 120px;
+	top: 125px;}
+	
+	  #legend-mobile {
+    top: 170px; 
+	z-index:1001;
+	right: 10px;}
+	
+	#info-button {
+		top: 58px;
+	}
+	
+	#logos {display: none;}
+	
+	.cbp-spmenu-left {
+		width: 310px;
+		height: 470px;
+		z-index: 1000001;
+		
+	}
+	
+}
 	  
 
 	  

@@ -18,39 +18,21 @@
   <body>
 	<div id="map"></div>
     <div id="logos">
-    <a href="http://nu.org.za/" target="_blank" title="Ndifuna Ukwazi"><img src="img/NU_logo_small.png" width="103"  alt="Ndifuna Ukwazi"></a> <br>
-    <a href="http://www.code4sa.org" target="_blank" title="Code for South Africa"><img src="img/code4sa_logo.png" width="103"  alt="Code for South Africa"></a> <br>
-    <a href="http://schoolofdata.org/" target="_blank" title="School of Data"><img src="img/scoda_logo.png" width="103"  alt="School of Data"></a>
+    <a href="http://nu.org.za/" target="_blank" title="Ndifuna Ukwazi"><img src="img/NU_logo_small.png" width="55" height="45" alt="Ndifuna Ukwazi"></a> 
+    <a href="http://www.code4sa.org" target="_blank" title="Code for South Africa"><img src="img/code4sa_logo.png" width="84" height="45" alt="Code for South Africa"></a> 
+    <a href="http://schoolofdata.org/" target="_blank" title="School of Data"><img src="img/scoda_logo.png" width="103" height="45" alt="School of Data"></a>
 
-    </div>
-    
-    <!--legend-->
-    <div id="legend-main">
-    <img src="img/legend.gif" width="239" height="212"></div>
-  <!-- mobile legend button -->
-    <div id="legend-trigger">
-    	<span>Legend</span>
-    </div>
-    <div id="legend-mobile">
     </div>
     
     
 	<div id="layer_selector">
-    	<nav id="nav-main">
-	 		 <ul id="nav-main">
-				<li id="abc" data-layer="1" class="selected">Capital Project Spend Per Capita</li>
-				<li id="efg" data-layer="2">Total Capital Project Budget</li>
-				<li id="hij" data-layer="3">Number of Capital Projects</li>
-	 		 </ul>
-      	</nav>
-        <!-- mobile nav button-->
-     	 <div id="nav-trigger">
-    		<span>Menu</span>
-		</div>
-		<nav id="nav-mobile"></nav>
+    <h5>MENU &raquo;</h5>
+	  <ul>
+		<li id="abc" data-layer="1" class="selected">Capital Project Spend Per Capita</li>
+		<li id="efg" data-layer="2">Total Capital Project Budget</li>
+		<li id="hij" data-layer="3">Number of Capital Projects</li>
+	  </ul>
 	</div>
-    
-    
     
     <div id="info-button"><button id="showLeft">SHOW/HIDE INFO</button>
     </div>
@@ -94,7 +76,7 @@
 	$(function() {
 		cartodb.createVis('map', url, {
 			scrollwheel: false,
-			search: false,
+			search: true,
 			legend: true,
 			
 		})
@@ -135,6 +117,15 @@
 							
 						})
 						
+						<!-- TRIED TO CALL THE CONCILLOR INFO JSON FILE HERE -->
+						$.get("https://data.code4sa.org/resource/26vs-4ane.json?ward=" + data.ward_number, function(councillor) {
+							data.councillor = councillor;
+							console.log(councillor);
+							var template = Handlebars.compile($("#ward_template").html());
+							$("#content").html(template(data));
+							
+						})
+						<!-- end -->
 						
 					})
 					.error(function(errors) {
@@ -166,6 +157,10 @@
 			<dt>Party</dt> <dd>{{ wardwinner }}</dd>
 			<dt>Total Capital Project Budget</dt> <dd>{{ formatCurrency total_capital_project_budget_for_this_ward }}</dd>
 		</dl>
+		
+		<!-- TRYING TO DISPLAY THE COUNCILLOR INFO HERE WILL ADD THE REST WHEN IT'S WORKING - NOT SURE HOW TO CALL THE PHOTO URL WHICH IS NESTED IN THE PHOTO DATA -->
+		<p> <img src="{{ photo:url }}"> Councillor: {{ name }} </p>
+		
 		
 	</div>
 	<div class="rightColumn">
@@ -207,37 +202,6 @@
 				
 			}
 		</script>
-        <!-- mobile nav script -->
-        <script>
-    $(document).ready(function(){
-    $("#nav-mobile").html($("#nav-main").html());
-    $("#nav-trigger span").click(function(){
-        if ($("nav#nav-mobile ul").hasClass("expanded")) {
-            $("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
-            $(this).removeClass("open");
-        } else {
-            $("nav#nav-mobile ul").addClass("expanded").slideDown(250);
-            $(this).addClass("open");
-        }
-    });
-});
-</script>
-
- <!-- mobile legend script -->
-          <script>
-    $(document).ready(function(){
-    $("#legend-mobile").html($("#legend-main").html());
-    $("#legend-trigger span").click(function(){
-        if ($("#legend-mobile").hasClass("expanded")) {
-            $("#legend-mobile.expanded").removeClass("expanded").slideUp(250);
-            $(this).removeClass("open");
-        } else {
-            $("#legend-mobile").addClass("expanded").slideDown(250);
-            $(this).addClass("open");
-        }
-    });
-});
-</script>
         
         <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
