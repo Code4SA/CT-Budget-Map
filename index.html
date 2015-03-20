@@ -90,7 +90,7 @@
 	<script src="bower_components/handlebars/handlebars.min.js"></script>
 	<script>
 	var sql = new cartodb.SQL({ user: 'msnimbus' });
-	var url = 'http://msnimbus.cartodb.com/api/v2/viz/eb10de06-7a19-11e4-bbe9-0e9d821ea90d/viz.json';
+	var url = 'http://ndifunaukwazi.cartodb.com/api/v2/viz/1c061a5e-cd98-11e4-bd11-0e9d821ea90d/viz.json';
 	$(function() {
 		cartodb.createVis('map', url, {
 			scrollwheel: false,
@@ -117,7 +117,7 @@
 				}
 				layers[1].getSubLayer(layer).show();
 			});
-			for(var x = 1; x < 4; x++) {
+			for(var x = 0; x < 4; x++) {
 				layers[1].getSubLayer(x).on("featureClick", function(e, latlng, pos, data, subLayerIndex) {
 					$("#content").html("<img src='http://libs.cartocdn.com/cartodb.js/v3/themes/img/loader.gif'>");
 					console.log("Initial data", data);
