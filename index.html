@@ -17,51 +17,7 @@
   </head>
   <body>
 	<div id="map"></div>
-    <div id="logos">
-    <a href="http://nu.org.za/" target="_blank" title="Ndifuna Ukwazi"><img src="img/NU_logo_small.png" width="103"  alt="Ndifuna Ukwazi"></a> <br>
-    <a href="http://www.code4sa.org" target="_blank" title="Code for South Africa"><img src="img/code4sa_logo.png" width="103"  alt="Code for South Africa"></a> <br>
-    <a href="http://schoolofdata.org/" target="_blank" title="School of Data"><img src="img/scoda_logo.png" width="103"  alt="School of Data"></a>
-
-    </div>
-    
-    <!--legend-->
-    
-  <!-- mobile legend button -->
-    <div id="legend-trigger">
-    	<span>Legend</span>
-    </div>
-    <div id="legend-mobile">
-    </div>
-
-    <div id="info-button"><button id="showLeft">SHOW/HIDE INFO</button>
-    </div>
-    
-    <div class="cbp-spmenu-left" id="cbp-spmenu-s1"> <h5> <b>NOTE: This is a work in progress and is undergoing further development.</b></h5>
-    <p>This interactive map shows the distribution of the City of Cape Town capital project budget (2014/2015) across wards. Note that multi-ward projects, that account for a large proportion of the capital budget, are not included.</p>
-    <strong>TOP 5 WARDS</strong>, TOTAL CAPITAL PROJECT BUDGET:
-    <ol>
-    <li>Ward 77 (Central Cape Town) - R672 553 937,00 </li>
-    <li>Ward 100 (Somerset West area) - R661 809 171,00</li>
-    <li>Ward 49 (Athlone area) - R520 357 367,00</li>
-    <li>Ward 51 (Langa) - R519 625 000,00</li>
-    <li>Ward 43 (Strandfontein/Rocklands area) - R496 123 366,00</li>
-    </ol>
-    
-    <strong>BOTTOM 5 WARDS</strong>, TOTAL CAPITAL PROJECT BUDGET:
-    <ol>
-    <li>Ward 90 (Khayelitsha) - R10 000,00</li>
-    <li>Ward 89 (Khayelitsha) - R10 000,00</li>
-    <li>Ward 91 (Khayelitsha) - R60 000,00</li>
-    <li>Ward 52 (Langa) - R233 852,00</li>
-    <li>Ward 48 (Athlone area) - R300 000,00</li>
-    </ol>
-    
-    <p>Data was sourced from The <a href="http://www.capetown.gov.za" target="_blank">City of Cape Town</a>, <a href="http://www.statssa.gov.za/census2011/default.asp" target="_blank">2011 Census</a> and the <a href="http://www.elections.org.za/" target="_blank">IEC</a>. This is an <a href="http://nu.org.za/" target="_blank">Ndifuna Ukwazi</a> and <a href="http://code4sa.org/" target="_blank">Code for South Africa</a> project.</p>
-    
-    </div>
-    
  	<div id="content" class="container">
-    <i>NOTE: This is a work in progress and is undergoing further development</i>
  		<h3>How is the capital budget being spent in your area?</h3>
         <p>Use the menu at the top right to view different map layers. <br>Click on a ward on the map for more detailed information. <br>Show and hide more detailed information about the project using the button near the top left.</p>
  	</div>
@@ -84,33 +40,16 @@
          	vis.map.set({
             minZoom: 9,
             maxZoom: 15,
-			
           });
-			
-			// vis.getOverlay("layer_selector").hide();
-			// layers[1].getSubLayer(0).show();
-			// $('#layer_selector li').on("click", function(e) {
-			// 	var layer = $(this).attr('data-layer');
-			// 	$("#layer_selector li").removeClass("selected");
-			// 	$(this).addClass("selected");
-			// 	for(var x = 1; x < 4; x++) {
-			// 		layers[1].getSubLayer(x).hide();
-			// 	}
-			// 	layers[1].getSubLayer(layer).show();
-			// });
 			for(var x = 0; x < 4; x++) {
 				layers[1].getSubLayer(x).on("featureClick", function(e, latlng, pos, data, subLayerIndex) {
 					$("#content").html("<img src='http://libs.cartocdn.com/cartodb.js/v3/themes/img/loader.gif'>");
-					// console.log("Initial data", data);
-					
 					sql.execute("SELECT table_budget_2014_15_merge.*, table_budget_2014_15_merge.budget_2014_15 AS total_budget, march2015_projectsformap.* FROM table_budget_2014_15_merge, march2015_projectsformap WHERE table_budget_2014_15_merge.cartodb_id = {{id}} AND table_budget_2014_15_merge.wardno = march2015_projectsformap.ward AND march2015_projectsformap.budget_2014_15 > 0", { id: data.cartodb_id })
 					.done(function(data) {
-						// console.log(data);
 						var template = Handlebars.compile($("#ward_template").html());
 						$("#content").html(template({ ward: data.rows[0], projects: data.rows }));
 					})
 					.error(function(errors) {
-						// errors contains a list of errors
 						console.log("errors:" + errors);
 					})
 				});
@@ -119,14 +58,13 @@
 	});
 
 	Handlebars.registerHelper('formatCurrency', function(value) {
-		return "ZAR&nbsp;" + value.toLocaleString();
+		return "ZAR&nbsp;" + Math.round(value).toLocaleString();
 	});
 
 	Handlebars.registerHelper('formatNumber', function(value) {
 		return value.toLocaleString();
 	});
  
-	  var layerN = {};
 	</script>
 	<script type="text/x-handlebars-template" id="ward_template">
 	<div class="leftColumn">
@@ -170,55 +108,6 @@
     
     <!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
 		<script src="js/classie.js"></script>
-		<script>
-			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
-				showLeft = document.getElementById( 'showLeft' ),
-				body = document.body;
-
-			showLeft.onclick = function() {
-				classie.toggle( this, 'active' );
-				classie.toggle( menuLeft, 'cbp-spmenu-open' );
-				disableOther( 'showLeft' );
-			};
-
-			function disableOther( button ) {
-				if( button !== 'showLeft' ) {
-					classie.toggle( showLeft, 'disabled' );
-				}
-				
-			}
-		</script>
-        <!-- mobile nav script -->
-        <script>
-    $(document).ready(function(){
-    $("#nav-mobile").html($("#nav-main").html());
-    $("#nav-trigger span").click(function(){
-        if ($("nav#nav-mobile ul").hasClass("expanded")) {
-            $("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
-            $(this).removeClass("open");
-        } else {
-            $("nav#nav-mobile ul").addClass("expanded").slideDown(250);
-            $(this).addClass("open");
-        }
-    });
-});
-</script>
-
- <!-- mobile legend script -->
-          <script>
-    $(document).ready(function(){
-    $("#legend-mobile").html($("#legend-main").html());
-    $("#legend-trigger span").click(function(){
-        if ($("#legend-mobile").hasClass("expanded")) {
-            $("#legend-mobile.expanded").removeClass("expanded").slideUp(250);
-            $(this).removeClass("open");
-        } else {
-            $("#legend-mobile").addClass("expanded").slideDown(250);
-            $(this).addClass("open");
-        }
-    });
-});
-</script>
         
         <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
