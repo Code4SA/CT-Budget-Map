@@ -89,7 +89,7 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="bower_components/handlebars/handlebars.min.js"></script>
 	<script>
-	var sql = new cartodb.SQL({ user: 'msnimbus' });
+	var sql = new cartodb.SQL({ user: 'ndifunaukwazi' });
 	var url = 'http://ndifunaukwazi.cartodb.com/api/v2/viz/1c061a5e-cd98-11e4-bd11-0e9d821ea90d/viz.json';
 	$(function() {
 		cartodb.createVis('map', url, {
@@ -122,7 +122,7 @@
 					$("#content").html("<img src='http://libs.cartocdn.com/cartodb.js/v3/themes/img/loader.gif'>");
 					console.log("Initial data", data);
 					
-					sql.execute("SELECT capetown_budget_map.*, march2015_projectsformap.* FROM capetown_budget_map, march2015_projectsformap WHERE capetown_budget_map.cartodb_id = {{id}} AND capetown_budget_map.ward_number = march2015_projectsformap.ward AND budget_2014_15 > 0", { id: data.cartodb_id })
+					sql.execute("SELECT table_budget_2014_15_merge.*, table_budget_2014_15_merge.budget_2014_15 AS total_budget, march2015_projectsformap.* FROM table_budget_2014_15_merge, march2015_projectsformap WHERE table_budget_2014_15_merge.cartodb_id = {{id}} AND table_budget_2014_15_merge.wardno = march2015_projectsformap.ward AND march2015_projectsformap.budget_2014_15 > 0", { id: data.cartodb_id })
 					.done(function(data) {
 						console.log(data);
 						var template = Handlebars.compile($("#ward_template").html());
@@ -149,13 +149,13 @@
 	</script>
 	<script type="text/x-handlebars-template" id="ward_template">
 	<div class="leftColumn">
-		<h1>Ward <span id="ward-id">{{ ward.ward_number }}</span></h1>
+		<h1>Ward <span id="ward-id">{{ ward.wardno }}</span></h1>
 		<dl>
 			<dt>Population</dt> <dd>{{ formatNumber ward.population }}</dd>
-			<dt>Number of projects</dt> <dd>{{ formatNumber ward.number_of_capital_projects_in_this_ward }}</dd>
+			<dt>Number of projects</dt> <dd>{{ formatNumber ward.no_projects_2014_15 }}</dd>
 			<dt>Registered Voters</dt> <dd>{{ formatNumber ward.reg_voters }}</dd>
 			<dt>Party</dt> <dd>{{ ward.wardwinner }}</dd>
-			<dt>Total Capital Project Budget</dt> <dd>{{{ formatCurrency ward.total_capital_project_budget_for_this_ward }}}</dd>
+			<dt>Total Capital Project Budget</dt> <dd>{{{ formatCurrency ward.total_budget }}}</dd>
 		</dl>
 		
 	</div>
@@ -181,7 +181,7 @@
 				<td></td>
 				<td></td>
 				<td></td>
-				<th>{{{ formatCurrency ward.total_capital_project_budget_for_this_ward }}}</th>
+				<th>{{{ formatCurrency ward.total_budget }}}</th>
 			</table>
 		</div>
 		</div>
