@@ -138,7 +138,7 @@
 	});
 
 	Handlebars.registerHelper('formatCurrency', function(value) {
-		return "ZAR " + value.toLocaleString();
+		return "ZAR&nbsp;" + value.toLocaleString();
 	});
 
 	Handlebars.registerHelper('formatNumber', function(value) {
@@ -155,7 +155,7 @@
 			<dt>Number of projects</dt> <dd>{{ formatNumber ward.number_of_capital_projects_in_this_ward }}</dd>
 			<dt>Registered Voters</dt> <dd>{{ formatNumber ward.reg_voters }}</dd>
 			<dt>Party</dt> <dd>{{ ward.wardwinner }}</dd>
-			<dt>Total Capital Project Budget</dt> <dd>{{ formatCurrency ward.total_capital_project_budget_for_this_ward }}</dd>
+			<dt>Total Capital Project Budget</dt> <dd>{{{ formatCurrency ward.total_capital_project_budget_for_this_ward }}}</dd>
 		</dl>
 		
 	</div>
@@ -174,14 +174,14 @@
 				<td>{{ project_id }}</td>
 				<td>{{ department }}</td>
 				<td>{{ description }}</td>
-				<td>{{ formatCurrency budget_2014_15 }}</td>
+				<td>{{{ formatCurrency budget_2014_15 }}}</td>
 			</tr>
 			{{/each}}
 			<tr>
 				<td></td>
 				<td></td>
 				<td></td>
-				<td><strong>{{ formatCurrency ward.total_capital_project_budget_for_this_ward }}</strong></td>
+				<th>{{{ formatCurrency ward.total_capital_project_budget_for_this_ward }}}</th>
 			</table>
 		</div>
 		</div>
