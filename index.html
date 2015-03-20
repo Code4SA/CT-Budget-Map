@@ -17,6 +17,14 @@
   </head>
   <body>
 	<div id="map"></div>
+	<div class="container">
+    	<div class="input-group">
+			<input type="text" id="search" class="form-control" value="" placeholder="Street, Suburb">
+			<span class="input-group-btn">
+				<button id="searchbtn" class="btn">Search</button>
+			</span>
+		</div>
+	</div>
  	<div id="content" class="container">
  		<h3>How is the capital budget being spent in your area?</h3>
         <p>Use the menu at the top right to view different map layers. <br>Click on a ward on the map for more detailed information. <br>Show and hide more detailed information about the project using the button near the top left.</p>
@@ -55,6 +63,45 @@
 				});
 			}
 		});
+
+		var wardsapi = "http://wards.code4sa.org/wards/2011/";
+		// var wardsapi = "http://127.0.0.1:5000/";
+
+		$("#searchbtn").on("click", function() {
+			search();
+		});
+		$("#search").on("keypress", function(e) {
+			if (e.keyCode == 13) {
+				search();
+			}
+		})
+		var search = function() {
+			s = $("#search").val();
+			if (s.indexOf("Cape Town") == -1) {
+				s = s + " Cape Town";
+			}
+			$("#content").html("<img src='http://libs.cartocdn.com/cartodb.js/v3/themes/img/loader.gif'>");
+			$.get(wardsapi, { address: s })
+			.done(function(data) {
+				if (data.error) {
+					$("#content").html("<h4>" + data.error + "</h4>");
+					return;
+				}
+				console.log(data);
+				ward = data.pop();
+				sql.execute("SELECT table_budget_2014_15_merge.*, table_budget_2014_15_merge.budget_2014_15 AS total_budget, march2015_projectsformap.* FROM table_budget_2014_15_merge, march2015_projectsformap WHERE table_budget_2014_15_merge.wardno = {{ward_id}} AND table_budget_2014_15_merge.wardno = march2015_projectsformap.ward AND march2015_projectsformap.budget_2014_15 > 0", { ward_id: ward.wards_no })
+					.done(function(data) {
+						var template = Handlebars.compile($("#ward_template").html());
+						$("#content").html(template({ ward: data.rows[0], projects: data.rows }));
+					})
+					.error(function(errors) {
+						console.log("errors:" + errors);
+					})
+			})
+			.fail(function() {
+				$("#content").html("<h4>We've had a problem searching. Please try again later.</h4>");
+			});
+		}
 	});
 
 	Handlebars.registerHelper('formatCurrency', function(value) {
