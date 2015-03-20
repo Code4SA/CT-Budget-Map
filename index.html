@@ -56,7 +56,7 @@
 					.done(function(data) {
 						console.log(data.rows[0]);
 						var template = Handlebars.compile($("#ward_template").html());
-						$("#content").html(template({ ward: data.rows[0], projects: data.rows }));
+						$("#content").html(template({ ward: data.rows[0], projects: data.rows, councillor: councillors["ward"+data.rows[0].wardno] }));
 					})
 					.error(function(errors) {
 						console.log("errors:" + errors);
@@ -93,7 +93,8 @@
 				sql.execute("SELECT table_budget_2014_15_merge.*, table_budget_2014_15_merge.budget_2014_15 AS total_budget, march2015_projectsformap.* FROM table_budget_2014_15_merge, march2015_projectsformap WHERE table_budget_2014_15_merge.wardno = {{ward_id}} AND table_budget_2014_15_merge.wardno = march2015_projectsformap.ward AND march2015_projectsformap.budget_2014_15 > 0", { ward_id: ward.wards_no })
 					.done(function(data) {
 						var template = Handlebars.compile($("#ward_template").html());
-						$("#content").html(template({ ward: data.rows[0], projects: data.rows }));
+						console.log("Councillor", councillors["ward"+data.rows[0].wardno]);
+						$("#content").html(template({ ward: data.rows[0], projects: data.rows, councillor: councillors["ward"+data.rows[0].wardno] }));
 					})
 					.error(function(errors) {
 						console.log("errors:" + errors);
@@ -103,6 +104,15 @@
 				$("#content").html("<h4>We've had a problem searching. Please try again later.</h4>");
 			});
 		}
+
+		var councillors = {};
+		$.get("./data/ward_councillors_ct_2015.json")
+		.done(function(data) {
+			data.forEach(function(councillor) {
+				councillors["ward" + councillor.ward] = councillor;
+			});
+			console.log(councillors);
+		});
 	});
 
 	Handlebars.registerHelper('formatCurrency', function(value) {
@@ -123,6 +133,20 @@
 			<dt>Registered Voters</dt> <dd>{{ formatNumber ward.reg_voters }}</dd>
 			<dt>Party</dt> <dd>{{ ward.wardwinner }}</dd>
 			<dt>Total Capital Project Budget</dt> <dd>{{{ formatCurrency ward.total_budget }}}</dd>
+		</dl>
+
+		<h3>Councillor</h3>
+		<img src="{{ councillor.photo }}" alt="{{ councillor.name }}" style="float: left; margin-right: 20px;">
+		<dl>
+			<dt>Name</dt> <dd>{{ councillor.name }}</dd>
+			<dt>Party</dt> <dd>{{ councillor.party }}</dd>
+			<dt>Subcouncil</dt> <dd>{{ councillor.subcouncil }}</dd>
+			<dt>Committee</dt> <dd>{{ councillor.committee_membership }}</dd>
+			<dt>Email</dt> <dd><a href="mailto:{{ councillor.email }}">{{ councillor.email }}</a></dd>
+			<dt>Cell</dt> <dd>{{ councillor.cellnumber }}</dd>
+			<dt>Business</dt> <dd>{{ councillor.business_number }}</dd>
+			<dt>Home</dt> <dd>{{ councillor.residence_number }}</dd>
+			<dt>Fax</dt> <dd>{{ councillor.fax_number }}</dd>
 		</dl>
 		
 	</div>
@@ -152,12 +176,13 @@
 			</table>
 		</div>
 	</div>
+	
 	<br clear="both">
 	<div id="wazi">
 		<iframe id="cr-embed-ward-{{ ward.ward_id }}-demographics-population_group_distribution" class="census-reporter-embed" src="http://embed.wazimap.co.za/static/iframe.html?geoID=ward-{{ ward.ward_id }}&chartDataID=demographics-population_group_distribution&chartType=column&chartHeight=200&chartQualifier=&chartTitle=Population+group&initialSort=&statType=scaled-percentage" frameborder="0" width="100%" height="300" style="margin: 1em; max-width: 720px;"></iframe>
 
 		<iframe id="cr-embed-ward-{{ ward.ward_id }}-economics-individual_income_distribution" class="census-reporter-embed" src="http://embed.wazimap.co.za/static/iframe.html?geoID=ward-{{ ward.ward_id }}&chartDataID=economics-individual_income_distribution&chartType=histogram&chartHeight=200&chartQualifier=Universe%3A+Employed+individuals&chartTitle=Employees+by+monthly+income&initialSort=&statType=scaled-percentage" frameborder="0" width="100%" height="300" style="margin: 1em; max-width: 720px;"></iframe>
-		
+
 		<iframe id="cr-embed-ward-{{ ward.ward_id }}-service_delivery-water_source_distribution" class="census-reporter-embed" src="http://embed.wazimap.co.za/static/iframe.html?geoID=ward-{{ ward.ward_id }}&chartDataID=service_delivery-water_source_distribution&chartType=pie&chartHeight=200&chartQualifier=&chartTitle=Population+by+water+source&initialSort=&statType=percentage" frameborder="0" width="100%" height="300" style="margin: 1em; max-width: 300px;"></iframe>
 
 		<iframe id="cr-embed-ward-{{ ward.ward_id }}-service_delivery-electricity_access_distribution" class="census-reporter-embed" src="http://embed.wazimap.co.za/static/iframe.html?geoID=ward-{{ ward.ward_id }}&chartDataID=service_delivery-electricity_access_distribution&chartType=pie&chartHeight=200&chartQualifier=&chartTitle=Population+by+electricity+usage&initialSort=&statType=percentage" frameborder="0" width="100%" height="300" style="margin: 1em; max-width: 300px;"></iframe>
