@@ -1,0 +1,3761 @@
+[ {
+  "ward" : "1",
+  "project_id" : "C10.84032",
+  "project_description" : "Plattekloof - N1 Reinforcement"
+}
+, {
+  "ward" : "1",
+  "project_id" : "CPX.0002538",
+  "project_description" : "Upgrade of Frikkie Knoetze Arboretum"
+}
+, {
+  "ward" : "1",
+  "project_id" : "CPX.0002539",
+  "project_description" : "New Park Equipment"
+}
+, {
+  "ward" : "1",
+  "project_id" : "CPX.0001694",
+  "project_description" : "Traffic Calming Ward 1"
+}
+, {
+  "ward" : "2",
+  "project_id" : "C09.94007",
+  "project_description" : "Develop Districtpark: Jack Muller,Bellvi"
+}
+, {
+  "ward" : "2",
+  "project_id" : "CPX.0002558",
+  "project_description" : "Upgrading of Jack Muller Park"
+}
+, {
+  "ward" : "2",
+  "project_id" : "CPX.0002559",
+  "project_description" : "Upgrading of Median Islands in Boston"
+}
+, {
+  "ward" : "2",
+  "project_id" : "C13.95059",
+  "project_description" : "Upgrading of Jan Burger Sports Grounds"
+}
+, {
+  "ward" : "2",
+  "project_id" : "CPX.0001698",
+  "project_description" : "Traffic Calming in Ward 2"
+}
+, {
+  "ward" : "2",
+  "project_id" : "CPX.0001700",
+  "project_description" : "Fencing of Jacqueline/Tierberg Road"
+}
+, {
+  "ward" : "3",
+  "project_id" : "C15.84081",
+  "project_description" : "Oakdale Main Substation Upgrade Ph 2"
+}
+, {
+  "ward" : "3",
+  "project_id" : "CPX.0001558",
+  "project_description" : "Bloemhof Network Control Centre"
+}
+, {
+  "ward" : "3",
+  "project_id" : "CPX.0002540",
+  "project_description" : "Development of POS North of the N1"
+}
+, {
+  "ward" : "3",
+  "project_id" : "CPX.0002541",
+  "project_description" : "Development of POS South of the N1"
+}
+, {
+  "ward" : "3",
+  "project_id" : "CPX.0002552",
+  "project_description" : "Upgrade of Islands South of the N1"
+}
+, {
+  "ward" : "3",
+  "project_id" : "CPX.0003412",
+  "project_description" : "Upgrade of Bellville Cemetery"
+}
+, {
+  "ward" : "3",
+  "project_id" : "CPX.0003979",
+  "project_description" : "New palisade fence at Wenning Park"
+}
+, {
+  "ward" : "3",
+  "project_id" : "CPX.0003980",
+  "project_description" : "Closure of various walkways in Ward 3"
+}
+, {
+  "ward" : "4",
+  "project_id" : "C13.84082",
+  "project_description" : "Milnerton: Sub-Depot - Street Lighting"
+}
+, {
+  "ward" : "4",
+  "project_id" : "C09.86015",
+  "project_description" : "Rehab Outfall Sewers Pentz Sandrift m/qu"
+}
+, {
+  "ward" : "4",
+  "project_id" : "C11.86063",
+  "project_description" : "Potsdam WWTW - Extension"
+}
+, {
+  "ward" : "4",
+  "project_id" : "CPX.0002593",
+  "project_description" : "Upgrade Emerald Way Open Park"
+}
+, {
+  "ward" : "4",
+  "project_id" : "CPX.0003440",
+  "project_description" : "Upgrade of Parks: Phoenix/Joe Slovo"
+}
+, {
+  "ward" : "4",
+  "project_id" : "C07.01047",
+  "project_description" : "Construct of Roads: Dualling Plattekloof"
+}
+, {
+  "ward" : "4",
+  "project_id" : "CPX.0001919",
+  "project_description" : "T/C Bay Beach Av/Ocean Way"
+}
+, {
+  "ward" : "4",
+  "project_id" : "CPX.0002254",
+  "project_description" : "CCTV Installation FY15 - ward 4"
+}
+, {
+  "ward" : "4",
+  "project_id" : "CPX.0003145",
+  "project_description" : "CCTV Installation FY15 W4"
+}
+, {
+  "ward" : "5",
+  "project_id" : "CPX.0002553",
+  "project_description" : "New Park Equipment and landscaping"
+}
+, {
+  "ward" : "5",
+  "project_id" : "CPX.0002554",
+  "project_description" : "Upgrading of De Grendel Avenue Park"
+}
+, {
+  "ward" : "5",
+  "project_id" : "CPX.0003328",
+  "project_description" : "Drip irrigation for trees in Plattekloof"
+}
+, {
+  "ward" : "5",
+  "project_id" : "CPX.0002837",
+  "project_description" : "Upgrade of Edgemead Sports Complex"
+}
+, {
+  "ward" : "5",
+  "project_id" : "CPX.0002838",
+  "project_description" : "Upgrading of Bothasig Sports Complex"
+}
+, {
+  "ward" : "5",
+  "project_id" : "CPX.0002573",
+  "project_description" : "Bothasig Library Material"
+}
+, {
+  "ward" : "5",
+  "project_id" : "CPX.0002575",
+  "project_description" : "Edgemead Library Material"
+}
+, {
+  "ward" : "5",
+  "project_id" : "CPX.0004020",
+  "project_description" : "Purchase of Radios FY15"
+}
+, {
+  "ward" : "6",
+  "project_id" : "C12.86094",
+  "project_description" : "Scottsdene WWTW"
+}
+, {
+  "ward" : "6",
+  "project_id" : "CPX.0002660",
+  "project_description" : "Upgrading of Parks: Ward 6"
+}
+, {
+  "ward" : "6",
+  "project_id" : "CPX.0002858",
+  "project_description" : "Upgrade of Wallacedene Comm. Hall"
+}
+, {
+  "ward" : "6",
+  "project_id" : "C05.00981",
+  "project_description" : "Construct Rds:Bottelary/R300"
+}
+, {
+  "ward" : "6",
+  "project_id" : "C13.01592",
+  "project_description" : "USDG: Scottsdene Regional Taxi Rank"
+}
+, {
+  "ward" : "6",
+  "project_id" : "CPX.0001829",
+  "project_description" : "Ward 105: Traffic Calming"
+}
+, {
+  "ward" : "6",
+  "project_id" : "CPX.0001831",
+  "project_description" : "Traffic Calming: Ward 6"
+}
+, {
+  "ward" : "6",
+  "project_id" : "CPX.0002681",
+  "project_description" : "Wallacedene Clinic"
+}
+, {
+  "ward" : "6",
+  "project_id" : "C06.30881",
+  "project_description" : "Wallacedene Phase 10A (PLS)"
+}
+, {
+  "ward" : "6",
+  "project_id" : "C07.00027",
+  "project_description" : "Wallacedene Phase 10B (UISP)"
+}
+, {
+  "ward" : "7",
+  "project_id" : "CPX.0002659",
+  "project_description" : "Upgrade of Parks: Ward 7"
+}
+, {
+  "ward" : "7",
+  "project_id" : "C13.13109",
+  "project_description" : "Upgrade and Extensions Northpine Clinic"
+}
+, {
+  "ward" : "7",
+  "project_id" : "C11.15505",
+  "project_description" : "Scottsdene New CRU Project - 350 Units"
+}
+, {
+  "ward" : "8",
+  "project_id" : "C15.86045",
+  "project_description" : "Rietvlei P/Station, R/Main Bottelary"
+}
+, {
+  "ward" : "8",
+  "project_id" : "CPX.0002598",
+  "project_description" : "Marinda Kuilsriver: Fencing and Gates"
+}
+, {
+  "ward" : "8",
+  "project_id" : "CPX.0002658",
+  "project_description" : "Upgrade of Parks in Ward 8"
+}
+, {
+  "ward" : "8",
+  "project_id" : "CPX.0003347",
+  "project_description" : "Upgrade De Oude Spruit Water Park"
+}
+, {
+  "ward" : "8",
+  "project_id" : "CPX.0001833",
+  "project_description" : "Fencing along Frans Conradie Road"
+}
+, {
+  "ward" : "8",
+  "project_id" : "CPX.0001999",
+  "project_description" : "Planning/Implementation of Pathways"
+}
+, {
+  "ward" : "9",
+  "project_id" : "C13.86001",
+  "project_description" : "Replacement Motor Cont Centre Bellv WWTW"
+}
+, {
+  "ward" : "9",
+  "project_id" : "C13.86002",
+  "project_description" : "Upgrade clarifiers - Bellville WWTW"
+}
+, {
+  "ward" : "9",
+  "project_id" : "C13.86003",
+  "project_description" : "Replacement Blowers - Bellville WWTW"
+}
+, {
+  "ward" : "9",
+  "project_id" : "C14.86042",
+  "project_description" : "Bellville WWTW-Replace Screw Pump"
+}
+, {
+  "ward" : "9",
+  "project_id" : "CPX.0002284",
+  "project_description" : "Bellville WWTW-Replace Screw Pump"
+}
+, {
+  "ward" : "9",
+  "project_id" : "C14.94064",
+  "project_description" : "Upgrading: Eendrag Park, Bellville South"
+}
+, {
+  "ward" : "9",
+  "project_id" : "CPX.0002560",
+  "project_description" : "Upgrading of Parks in Glenhaven"
+}
+, {
+  "ward" : "9",
+  "project_id" : "CPX.0002839",
+  "project_description" : "Upgrading of Sports Facilities in Ward 9"
+}
+, {
+  "ward" : "9",
+  "project_id" : "CPX.0002843",
+  "project_description" : "Upgrade of Bellville South Civic Centre"
+}
+, {
+  "ward" : "9",
+  "project_id" : "C13.10329",
+  "project_description" : "Durban Road Corridor Modderdam Road ext"
+}
+, {
+  "ward" : "9",
+  "project_id" : "CPX.0001742",
+  "project_description" : "Tarring of Sidewalks in Greenlands"
+}
+, {
+  "ward" : "9",
+  "project_id" : "CPX.0002755",
+  "project_description" : "Kasselsvlei Clinic Upgrade and Ext"
+}
+, {
+  "ward" : "9",
+  "project_id" : "CPX.0002265",
+  "project_description" : "Upgrading of Flats in Ward 9"
+}
+, {
+  "ward" : "10",
+  "project_id" : "C09.84043",
+  "project_description" : "Stikland New Main Substation"
+}
+, {
+  "ward" : "10",
+  "project_id" : "CPX.0002561",
+  "project_description" : "Upgrading of Parks in Ward 10"
+}
+, {
+  "ward" : "10",
+  "project_id" : "CPX.0003327",
+  "project_description" : "Upgrade of Voortrekker Road, Parow and G"
+}
+, {
+  "ward" : "10",
+  "project_id" : "CPX.0001744",
+  "project_description" : "Hardening of Lanes in Ward 10"
+}
+, {
+  "ward" : "10",
+  "project_id" : "CPX.0001746",
+  "project_description" : "Traffic Calming in Ward 10"
+}
+, {
+  "ward" : "10",
+  "project_id" : "CPX.0002288",
+  "project_description" : "Radio Trunking Services FY15"
+}
+, {
+  "ward" : "10",
+  "project_id" : "C13.11106",
+  "project_description" : "CCTV roll out Bellville"
+}
+, {
+  "ward" : "11",
+  "project_id" : "CPX.0002486",
+  "project_description" : "Upgrade of Parks within Ward 11"
+}
+, {
+  "ward" : "11",
+  "project_id" : "CPX.0002828",
+  "project_description" : "Upgrade Kuilsrivier Central Sport Facili"
+}
+, {
+  "ward" : "11",
+  "project_id" : "CPX.0001798",
+  "project_description" : "Upgrade of Sidewalks within Ward 11"
+}
+, {
+  "ward" : "11",
+  "project_id" : "CPX.0001800",
+  "project_description" : "Implement Traffic Calming Ward 11"
+}
+, {
+  "ward" : "11",
+  "project_id" : "CPX.0004040",
+  "project_description" : "Bottelary Area Main Roads"
+}
+, {
+  "ward" : "11",
+  "project_id" : "C12.13109",
+  "project_description" : "Sarepta Clinic - upgrade of TB area"
+}
+, {
+  "ward" : "12",
+  "project_id" : "C10.86130",
+  "project_description" : "Regional resources development"
+}
+, {
+  "ward" : "12",
+  "project_id" : "C10.86132",
+  "project_description" : "Remove midblock water network-Bishop Lav"
+}
+, {
+  "ward" : "12",
+  "project_id" : "C14.94065",
+  "project_description" : "Upgrading of Springfield Park, Belhar"
+}
+, {
+  "ward" : "12",
+  "project_id" : "CPX.0002578",
+  "project_description" : "Upgrading of Parks in Ward 12"
+}
+, {
+  "ward" : "12",
+  "project_id" : "CPX.0002579",
+  "project_description" : "Landscape of Verges - Belhar Drive"
+}
+, {
+  "ward" : "12",
+  "project_id" : "CPX.0002840",
+  "project_description" : "Sport Equipment for Hugenot Hall"
+}
+, {
+  "ward" : "12",
+  "project_id" : "CPX.0002841",
+  "project_description" : "Upgrading of Belhar Minor Hall"
+}
+, {
+  "ward" : "12",
+  "project_id" : "CPX.0001750",
+  "project_description" : "Tarring of Sidewalks in Ward 12"
+}
+, {
+  "ward" : "12",
+  "project_id" : "C10.13121",
+  "project_description" : "St Vincent Clinic - Extensions"
+}
+, {
+  "ward" : "12",
+  "project_id" : "C06.41518",
+  "project_description" : "Belhar/Pentech Housing Proj: 350 Units"
+}
+, {
+  "ward" : "13",
+  "project_id" : "C14.94067",
+  "project_description" : "Upgrading of Terrawa Park, Roosendal, De"
+}
+, {
+  "ward" : "13",
+  "project_id" : "C14.94087",
+  "project_description" : "Upgrade Chari Street Park, Leiden, Delft"
+}
+, {
+  "ward" : "13",
+  "project_id" : "CPX.0002614",
+  "project_description" : "Upgrade of Klipvygie & Keurtjie Park"
+}
+, {
+  "ward" : "13",
+  "project_id" : "CPX.0002615",
+  "project_description" : "Upgrade Tulp & Trouweppen Park"
+}
+, {
+  "ward" : "13",
+  "project_id" : "CPX.0003413",
+  "project_description" : "Development of Mandela Peace Park"
+}
+, {
+  "ward" : "13",
+  "project_id" : "CPX.0002847",
+  "project_description" : "Equipment for Delft Central Sports Field"
+}
+, {
+  "ward" : "13",
+  "project_id" : "CPX.0002848",
+  "project_description" : "Kitchen Equipment for Mandela Peace Park"
+}
+, {
+  "ward" : "13",
+  "project_id" : "CPX.0002849",
+  "project_description" : "Sport Equipment for Mandela Peace Park"
+}
+, {
+  "ward" : "13",
+  "project_id" : "C08.15508",
+  "project_description" : "Delft - The Hague Housing Project"
+}
+, {
+  "ward" : "14",
+  "project_id" : "C14.86001",
+  "project_description" : "Penhill Sewer Installation"
+}
+, {
+  "ward" : "14",
+  "project_id" : "C09.94001",
+  "project_description" : "Welmoed Cemetery Development"
+}
+, {
+  "ward" : "14",
+  "project_id" : "C14.94108",
+  "project_description" : "Park Development-Duiker Street"
+}
+, {
+  "ward" : "14",
+  "project_id" : "C14.94117",
+  "project_description" : "Upgrade of parks Blue Downs Area (fencin"
+}
+, {
+  "ward" : "14",
+  "project_id" : "CPX.0002487",
+  "project_description" : "Upgrade Parks within Ward 14"
+}
+, {
+  "ward" : "14",
+  "project_id" : "CPX.0003421",
+  "project_description" : "Beautification of Roads in Eerste River"
+}
+, {
+  "ward" : "14",
+  "project_id" : "CPX.0002826",
+  "project_description" : "Upgrade Sarepta Sport Complex"
+}
+, {
+  "ward" : "14",
+  "project_id" : "CPX.0002829",
+  "project_description" : "Upgrade Jagtershof Sport Complex"
+}
+, {
+  "ward" : "14",
+  "project_id" : "C07.00507",
+  "project_description" : "Buttskop Rd upgrading"
+}
+, {
+  "ward" : "14",
+  "project_id" : "CPX.0001802",
+  "project_description" : "Upgrade of Sidewalks within Ward 14"
+}
+, {
+  "ward" : "15",
+  "project_id" : "C10.94001",
+  "project_description" : "Vaalfontein Cemetery Development"
+}
+, {
+  "ward" : "15",
+  "project_id" : "C14.94114",
+  "project_description" : "Upgrade of Parks-Croydon-Johannesburg St"
+}
+, {
+  "ward" : "15",
+  "project_id" : "CPX.0002596",
+  "project_description" : "Parks, Fencing POS on Berlinka Ave"
+}
+, {
+  "ward" : "15",
+  "project_id" : "CPX.0002072",
+  "project_description" : "Sidewalks in Ward 15"
+}
+, {
+  "ward" : "15",
+  "project_id" : "CPX.0002074",
+  "project_description" : "Sidewalks in Firgrove"
+}
+, {
+  "ward" : "15",
+  "project_id" : "CPX.0002076",
+  "project_description" : "Speed calming in Ward 15"
+}
+, {
+  "ward" : "15",
+  "project_id" : "C06.42371",
+  "project_description" : "10 Ha Somerset West Hsg Project"
+}
+, {
+  "ward" : "16",
+  "project_id" : "C06.00282",
+  "project_description" : "Develop Metro South-East Cemetery"
+}
+, {
+  "ward" : "16",
+  "project_id" : "C14.94111",
+  "project_description" : "Upgrade of Parks Devon Park Eersteriver"
+}
+, {
+  "ward" : "16",
+  "project_id" : "CPX.0002595",
+  "project_description" : "Upgrade of Parks in Ward 16"
+}
+, {
+  "ward" : "16",
+  "project_id" : "CPX.0002863",
+  "project_description" : "Eersteriver Sports Field Equipment"
+}
+, {
+  "ward" : "16",
+  "project_id" : "CPX.0002864",
+  "project_description" : "Mfuleni Sports Field Equipment"
+}
+, {
+  "ward" : "16",
+  "project_id" : "CPX.0002321",
+  "project_description" : "Library books - Mfuleni"
+}
+, {
+  "ward" : "16",
+  "project_id" : "CPX.0002325",
+  "project_description" : "Eersteriver - Library books"
+}
+, {
+  "ward" : "16",
+  "project_id" : "CPX.0002403",
+  "project_description" : "Shelving for Macassar Library"
+}
+, {
+  "ward" : "16",
+  "project_id" : "CPX.0002078",
+  "project_description" : "Sidewalks in Ward 16"
+}
+, {
+  "ward" : "16",
+  "project_id" : "CPX.0003139",
+  "project_description" : "Imizamo Yethu Housing Project (Phase 3)"
+}
+, {
+  "ward" : "17",
+  "project_id" : "CPX.0002483",
+  "project_description" : "Upgrade of Parks within Ward 17"
+}
+, {
+  "ward" : "17",
+  "project_id" : "CPX.0002825",
+  "project_description" : "Upgrade Kleinvlei Sportfield"
+}
+, {
+  "ward" : "17",
+  "project_id" : "CPX.0001763",
+  "project_description" : "Upgrade Sidewalks Ward 17"
+}
+, {
+  "ward" : "17",
+  "project_id" : "CPX.0001796",
+  "project_description" : "Implement Traffic Calming Ward 17"
+}
+, {
+  "ward" : "18",
+  "project_id" : "CPX.0002301",
+  "project_description" : "Purchasing of Loud Hailer"
+}
+, {
+  "ward" : "18",
+  "project_id" : "CPX.0002599",
+  "project_description" : "Construction of Ward 18 Parks"
+}
+, {
+  "ward" : "18",
+  "project_id" : "CPX.0002018",
+  "project_description" : "Speedhumps in Ward 18"
+}
+, {
+  "ward" : "19",
+  "project_id" : "C12.94010",
+  "project_description" : "Wesbank POS system development"
+}
+, {
+  "ward" : "19",
+  "project_id" : "C14.94113",
+  "project_description" : "Upgrade of Parks Driftsands"
+}
+, {
+  "ward" : "19",
+  "project_id" : "CPX.0002484",
+  "project_description" : "Upgrade of Parks Ward 19"
+}
+, {
+  "ward" : "19",
+  "project_id" : "CPX.0002688",
+  "project_description" : "Installation of Elevator at Wesbank MPC"
+}
+, {
+  "ward" : "19",
+  "project_id" : "CPX.0001783",
+  "project_description" : "Tarring of Sidewalks within Ward 19"
+}
+, {
+  "ward" : "19",
+  "project_id" : "C13.17304",
+  "project_description" : "Construct ECD Centres-Delft"
+}
+, {
+  "ward" : "20",
+  "project_id" : "C14.94069",
+  "project_description" : "Upgrading of Amur Park, Eindhoven, Delft"
+}
+, {
+  "ward" : "20",
+  "project_id" : "CPX.0002616",
+  "project_description" : "Upgrade Lena & Missouri Park"
+}
+, {
+  "ward" : "20",
+  "project_id" : "CPX.0002850",
+  "project_description" : "Fencing at Delft South Hall"
+}
+, {
+  "ward" : "20",
+  "project_id" : "CPX.0002591",
+  "project_description" : "Smartcape Equipment for Delft Library"
+}
+, {
+  "ward" : "20",
+  "project_id" : "CPX.0002603",
+  "project_description" : "Furniture for Delft Library"
+}
+, {
+  "ward" : "20",
+  "project_id" : "CPX.0002605",
+  "project_description" : "Books & AV Material for Delft Library"
+}
+, {
+  "ward" : "20",
+  "project_id" : "CPX.0003799",
+  "project_description" : "Books, Perio.& Subscription"
+}
+, {
+  "ward" : "20",
+  "project_id" : "CPX.0003123",
+  "project_description" : "Delft south ext for TB and ARV"
+}
+, {
+  "ward" : "20",
+  "project_id" : "CPX.0003574",
+  "project_description" : "Delft Centre"
+}
+, {
+  "ward" : "21",
+  "project_id" : "C15.84080",
+  "project_description" : "Eversdal - Durbanville 66kV OHL Upgrade"
+}
+, {
+  "ward" : "21",
+  "project_id" : "C08.94050",
+  "project_description" : "Regional Park Upg:Durbanville Rose Garde"
+}
+, {
+  "ward" : "21",
+  "project_id" : "CPX.0003292",
+  "project_description" : "Upgrade De Villiers / Hafele POS"
+}
+, {
+  "ward" : "21",
+  "project_id" : "CPX.0003297",
+  "project_description" : "Improvement of Uitspan POS."
+}
+, {
+  "ward" : "21",
+  "project_id" : "CPX.0003299",
+  "project_description" : "Rosendal Park improvements"
+}
+, {
+  "ward" : "21",
+  "project_id" : "CPX.0003301",
+  "project_description" : "Mountain View Park improvements"
+}
+, {
+  "ward" : "21",
+  "project_id" : "CPX.0003404",
+  "project_description" : "Development of Library Park"
+}
+, {
+  "ward" : "21",
+  "project_id" : "CPX.0003405",
+  "project_description" : "Development of Morgenster Park"
+}
+, {
+  "ward" : "21",
+  "project_id" : "C14.00005",
+  "project_description" : "Durbanville CBD PTI"
+}
+, {
+  "ward" : "21",
+  "project_id" : "CPX.0001729",
+  "project_description" : "Pampoenkraal Heritage site"
+}
+, {
+  "ward" : "21",
+  "project_id" : "CPX.0003002",
+  "project_description" : "Pampoenkraal Heritage Site : Plan Ph 2"
+}
+, {
+  "ward" : "22",
+  "project_id" : "CPX.0002580",
+  "project_description" : "Upgrading of Parks in Belhar"
+}
+, {
+  "ward" : "22",
+  "project_id" : "CPX.0002842",
+  "project_description" : "Upgrading of Blou Lelie Civic Centre"
+}
+, {
+  "ward" : "22",
+  "project_id" : "CPX.0001748",
+  "project_description" : "Upgrading of Sidewalks in Ward 22"
+}
+, {
+  "ward" : "23",
+  "project_id" : "C14.86043",
+  "project_description" : "Melkbos WWTW-Effluent Disinfection"
+}
+, {
+  "ward" : "23",
+  "project_id" : "C15.86046",
+  "project_description" : "West Beach S/Pumpstation and rising Main"
+}
+, {
+  "ward" : "23",
+  "project_id" : "C14.94126",
+  "project_description" : "District Park Atlantis"
+}
+, {
+  "ward" : "23",
+  "project_id" : "CPX.0002592",
+  "project_description" : "Open Gym at Info Centre T/View"
+}
+, {
+  "ward" : "23",
+  "project_id" : "CPX.0002692",
+  "project_description" : "Upgrade Duynefontein Park"
+}
+, {
+  "ward" : "23",
+  "project_id" : "CPX.0004033",
+  "project_description" : "Traffic Calming: Beach Rd Melkbosstrand"
+}
+, {
+  "ward" : "23",
+  "project_id" : "CPX.0002255",
+  "project_description" : "CCTV Installation FY15 - ward 23"
+}
+, {
+  "ward" : "23",
+  "project_id" : "CPX.0003146",
+  "project_description" : "CCTV Installation FY15 W23"
+}
+, {
+  "ward" : "24",
+  "project_id" : "CPX.0003416",
+  "project_description" : "Upgrade of Park, Bishop Lavis"
+}
+, {
+  "ward" : "24",
+  "project_id" : "CPX.0002851",
+  "project_description" : "Upgrade of The Bishop Lavis Civic Centre"
+}
+, {
+  "ward" : "24",
+  "project_id" : "CPX.0002608",
+  "project_description" : "Furniture for Bishop Lavis Library"
+}
+, {
+  "ward" : "24",
+  "project_id" : "CPX.0002610",
+  "project_description" : "Books & AV Material Bishop Lavis Library"
+}
+, {
+  "ward" : "24",
+  "project_id" : "CPX.0001772",
+  "project_description" : "Upgrade Sidewalks - Bishop Lavis"
+}
+, {
+  "ward" : "24",
+  "project_id" : "CPX.0001774",
+  "project_description" : "Traffic Calming"
+}
+, {
+  "ward" : "25",
+  "project_id" : "C14.94059",
+  "project_description" : "Park Upgrade: Uitsig"
+}
+, {
+  "ward" : "25",
+  "project_id" : "C14.94061",
+  "project_description" : "Park Upgrade: Ravensmead"
+}
+, {
+  "ward" : "25",
+  "project_id" : "CPX.0003189",
+  "project_description" : "Upgrade 9th Avenue Park"
+}
+, {
+  "ward" : "25",
+  "project_id" : "C12.13107",
+  "project_description" : "Ravensmead Clinic - upgrade of TB area"
+}
+, {
+  "ward" : "25",
+  "project_id" : "CPX.00022",
+  "project_description" : "Installation of Geysers -Uitsig"
+}
+, {
+  "ward" : "26",
+  "project_id" : "CPX.0003414",
+  "project_description" : "Upgrade of Beret Park"
+}
+, {
+  "ward" : "26",
+  "project_id" : "CPX.0003789",
+  "project_description" : "Parow PTI"
+}
+, {
+  "ward" : "27",
+  "project_id" : "C14.94063",
+  "project_description" : "Fencing and upgrading of Hanekom Park, G"
+}
+, {
+  "ward" : "27",
+  "project_id" : "CPX.0002465",
+  "project_description" : "Upgrading of Gregory Park"
+}
+, {
+  "ward" : "27",
+  "project_id" : "CPX.0003329",
+  "project_description" : "Upgrade of Combrink Park in Goodwood"
+}
+, {
+  "ward" : "28",
+  "project_id" : "CPX.0002822",
+  "project_description" : "Upgrading of Salberau Clubhouse"
+}
+, {
+  "ward" : "28",
+  "project_id" : "CPX.0001897",
+  "project_description" : "Traffic calming Measures- Ward 28"
+}
+, {
+  "ward" : "28",
+  "project_id" : "CPX.0004092",
+  "project_description" : "Public Access Centre: ICAN Project"
+}
+, {
+  "ward" : "29",
+  "project_id" : "C14.86044",
+  "project_description" : "Wesfleur WWTW-Capacity Extension USDG"
+}
+, {
+  "ward" : "29",
+  "project_id" : "C09.94014",
+  "project_description" : "Atlantis Cemetery Upgrade"
+}
+, {
+  "ward" : "29",
+  "project_id" : "CPX.0002693",
+  "project_description" : "Fencing Paradise Lane Park Mamre"
+}
+, {
+  "ward" : "29",
+  "project_id" : "CPX.0002694",
+  "project_description" : "Develop park in Akkerboomlaan, Mamre"
+}
+, {
+  "ward" : "29",
+  "project_id" : "CPX.0003316",
+  "project_description" : "Upgrading of parks in Mamre"
+}
+, {
+  "ward" : "29",
+  "project_id" : "CPX.0001921",
+  "project_description" : "Upgrading entrace S/Stroomstrand Beach"
+}
+, {
+  "ward" : "29",
+  "project_id" : "CPX.0002023",
+  "project_description" : "T/C Measures Hoop Crescent, Atlantis"
+}
+, {
+  "ward" : "29",
+  "project_id" : "CPX.0002025",
+  "project_description" : "Resurfacing roads in Coral Place Flats"
+}
+, {
+  "ward" : "29",
+  "project_id" : "C08.15509",
+  "project_description" : "Kanonkop (Atlantis Ext12)Housing Project"
+}
+, {
+  "ward" : "30",
+  "project_id" : "C15.84079",
+  "project_description" : "Bofors Main Substation Upgrade"
+}
+, {
+  "ward" : "30",
+  "project_id" : "C09.86008",
+  "project_description" : "Ruyterwacht Midblich watrer pipes"
+}
+, {
+  "ward" : "30",
+  "project_id" : "CPX.0002823",
+  "project_description" : "Upgrade of Matroosfontein Sport Complex"
+}
+, {
+  "ward" : "30",
+  "project_id" : "CPX.0002824",
+  "project_description" : "Upgrading of Matroosfontein Civic"
+}
+, {
+  "ward" : "30",
+  "project_id" : "CPX.0002494",
+  "project_description" : "Upgrading of Valhalla Park Library"
+}
+, {
+  "ward" : "30",
+  "project_id" : "CPX.0001900",
+  "project_description" : "Traffic Calming Measures Ward 30"
+}
+, {
+  "ward" : "30",
+  "project_id" : "CPX.0001902",
+  "project_description" : "Tarring of pavements"
+}
+, {
+  "ward" : "30",
+  "project_id" : "CPX.0002263",
+  "project_description" : "Installation of Ceilings - Bishop Lavis"
+}
+, {
+  "ward" : "30",
+  "project_id" : "CPX.0002264",
+  "project_description" : "Installation of Bathrooms - Kalksteenfon"
+}
+, {
+  "ward" : "30",
+  "project_id" : "CPX.0002700",
+  "project_description" : "Valhalla Park Integrated Housing Project"
+}
+, {
+  "ward" : "31",
+  "project_id" : "C12.86091",
+  "project_description" : "Borchards Quarry WWTW"
+}
+, {
+  "ward" : "31",
+  "project_id" : "C14.94060",
+  "project_description" : "Park Upgrade: Netreg"
+}
+, {
+  "ward" : "31",
+  "project_id" : "CPX.0002617",
+  "project_description" : "Upgrade Park-Kurper Street-Nooitgedacht"
+}
+, {
+  "ward" : "31",
+  "project_id" : "CPX.0001776",
+  "project_description" : "Upgrade of Sidewalks Nooitgedacht Flats"
+}
+, {
+  "ward" : "31",
+  "project_id" : "CPX.0001778",
+  "project_description" : "Upgrade of Sidewalks Ward 31"
+}
+, {
+  "ward" : "31",
+  "project_id" : "CPX.0002266",
+  "project_description" : "Reading Room Upgrade Ward 31"
+}
+, {
+  "ward" : "31",
+  "project_id" : "C13.17310",
+  "project_description" : "Construction of ECD - Golden Gate"
+}
+, {
+  "ward" : "32",
+  "project_id" : "C16.84070",
+  "project_description" : "Atlantis Industrial New Main Substation"
+}
+, {
+  "ward" : "32",
+  "project_id" : "CPX.0002727",
+  "project_description" : "POS Lighting Robinvale Atlantis"
+}
+, {
+  "ward" : "32",
+  "project_id" : "CPX.0003442",
+  "project_description" : "Upgrade of Parks: Atlantis"
+}
+, {
+  "ward" : "32",
+  "project_id" : "C13.95038",
+  "project_description" : "Protea Park SF:Atlantis -Cement Pavilion"
+}
+, {
+  "ward" : "32",
+  "project_id" : "C16.95003",
+  "project_description" : "Atlantis Synthetic Soccer Pitch"
+}
+, {
+  "ward" : "32",
+  "project_id" : "C14.14717",
+  "project_description" : "Acquisition & Upgrade - Atlantis"
+}
+, {
+  "ward" : "32",
+  "project_id" : "C06.41500",
+  "project_description" : "Witsand Housing Project Phase 2 Atlantis"
+}
+, {
+  "ward" : "32",
+  "project_id" : "CPX.0002903",
+  "project_description" : "Witsands Reserve Development"
+}
+, {
+  "ward" : "32",
+  "project_id" : "CPX.0003580",
+  "project_description" : "Witsands Office Development"
+}
+, {
+  "ward" : "33",
+  "project_id" : "C14.94133",
+  "project_description" : "Park Upgrades in Samora Machel"
+}
+, {
+  "ward" : "33",
+  "project_id" : "CPX.0003449",
+  "project_description" : "Development of Parks - Phillipi"
+}
+, {
+  "ward" : "33",
+  "project_id" : "CPX.0003460",
+  "project_description" : "Development of Park - Samora Machel"
+}
+, {
+  "ward" : "33",
+  "project_id" : "CPX.0003464",
+  "project_description" : "Development of Park - Mandela Park"
+}
+, {
+  "ward" : "33",
+  "project_id" : "CPX.0003934",
+  "project_description" : "Development of Parks - Phillipi"
+}
+, {
+  "ward" : "33",
+  "project_id" : "CPX.0003959",
+  "project_description" : "Development of Parks - Phillipi"
+}
+, {
+  "ward" : "33",
+  "project_id" : "C11.10538",
+  "project_description" : "Samora Machel Taxi Rank Philippi"
+}
+, {
+  "ward" : "34",
+  "project_id" : "C14.94132",
+  "project_description" : "Park Upgrades in Browns Farm"
+}
+, {
+  "ward" : "34",
+  "project_id" : "CPX.0003458",
+  "project_description" : "Development of Park -Browns Farm"
+}
+, {
+  "ward" : "34",
+  "project_id" : "C12.13120",
+  "project_description" : "Mzamomhle clinic upgrade & ext. TB/ARV"
+}
+, {
+  "ward" : "35",
+  "project_id" : "C14.95024",
+  "project_description" : "Synthetic Pitch - Cross Roads"
+}
+, {
+  "ward" : "35",
+  "project_id" : "C13.13117",
+  "project_description" : "Extensions for ARV and TB Phumlani"
+}
+, {
+  "ward" : "35",
+  "project_id" : "C06.41520",
+  "project_description" : "Philippi East 5 Housing Project"
+}
+, {
+  "ward" : "36",
+  "project_id" : "CPX.0003453",
+  "project_description" : "Development of Parks -Cross Roads"
+}
+, {
+  "ward" : "36",
+  "project_id" : "CPX.0003926",
+  "project_description" : "Development of Parks -Cross Roads"
+}
+, {
+  "ward" : "36",
+  "project_id" : "CPX.0002674",
+  "project_description" : "Cross Roads I Upgrade and extensions"
+}
+, {
+  "ward" : "37",
+  "project_id" : "CPX.0001670",
+  "project_description" : "Ward Allocations 1415 - Subcouncil 14"
+}
+, {
+  "ward" : "37",
+  "project_id" : "CPX.0002294",
+  "project_description" : "Vehicle mounted loudhailers"
+}
+, {
+  "ward" : "37",
+  "project_id" : "C11.10540",
+  "project_description" : "Nyanga Main Taxi Rank"
+}
+, {
+  "ward" : "38",
+  "project_id" : "C09.94018",
+  "project_description" : "Gugulethu Cem: Implement Lscape Plans"
+}
+, {
+  "ward" : "38",
+  "project_id" : "C14.94127",
+  "project_description" : "District Park NY10"
+}
+, {
+  "ward" : "38",
+  "project_id" : "CPX.0003445",
+  "project_description" : "Upgrade of Parks: Nyanga and Gugulethu"
+}
+, {
+  "ward" : "38",
+  "project_id" : "C14.95086",
+  "project_description" : "Upgrading of J Nontulo Sports Field"
+}
+, {
+  "ward" : "38",
+  "project_id" : "C09.15515",
+  "project_description" : "Gugulethu Infill Project Erf 8448/MauMau"
+}
+, {
+  "ward" : "39",
+  "project_id" : "CPX.0002299",
+  "project_description" : "Vehicle mounted loudhailers"
+}
+, {
+  "ward" : "39",
+  "project_id" : "CPX.0001904",
+  "project_description" : "Placing street name kerbs"
+}
+, {
+  "ward" : "39",
+  "project_id" : "C13.13114",
+  "project_description" : "Extensions for ARV and TB Masincedane"
+}
+, {
+  "ward" : "39",
+  "project_id" : "C06.41502",
+  "project_description" : "Nyanga Upgrading Project(PLF&UISP)"
+}
+, {
+  "ward" : "40",
+  "project_id" : "CPX.0002012",
+  "project_description" : "Vehicle Mounted loudhailer"
+}
+, {
+  "ward" : "40",
+  "project_id" : "C13.84080",
+  "project_description" : "Guguletu Main Substation Upgrade"
+}
+, {
+  "ward" : "40",
+  "project_id" : "CPX.0003444",
+  "project_description" : "Upgrade of NY111 Park - Gugulethu"
+}
+, {
+  "ward" : "40",
+  "project_id" : "C14.95087",
+  "project_description" : "Upgrading of NY116 Sports Field"
+}
+, {
+  "ward" : "41",
+  "project_id" : "CPX.0002001",
+  "project_description" : "Vehicle mounted loudhailers"
+}
+, {
+  "ward" : "41",
+  "project_id" : "CPX.0002661",
+  "project_description" : "Upgrading of Park NY 43"
+}
+, {
+  "ward" : "41",
+  "project_id" : "CPX.0002857",
+  "project_description" : "Outdoor Gym Facility & Equipment"
+}
+, {
+  "ward" : "41",
+  "project_id" : "C14.13600",
+  "project_description" : "Upgrade and Ext Guguletu Clinic"
+}
+, {
+  "ward" : "42",
+  "project_id" : "CPX.0002338",
+  "project_description" : "Upgrading of Play Parks ward 42"
+}
+, {
+  "ward" : "42",
+  "project_id" : "CPX.0001930",
+  "project_description" : "Upgrade of Sidewalks ward 42"
+}
+, {
+  "ward" : "42",
+  "project_id" : "C13.13115",
+  "project_description" : "Extensions for ARV and TB Vuyani Clinic"
+}
+, {
+  "ward" : "42",
+  "project_id" : "C10.15430",
+  "project_description" : "Manenberg CRU Project (1584 units)"
+}
+, {
+  "ward" : "42",
+  "project_id" : "C11.15445",
+  "project_description" : "Manenberg SEFP & USDG Project"
+}
+, {
+  "ward" : "42",
+  "project_id" : "C06.41531",
+  "project_description" : "Manenberg The Downs : Housing Project"
+}
+, {
+  "ward" : "43",
+  "project_id" : "CPX.0002721",
+  "project_description" : "Ward 43 Street Lighting in Parks"
+}
+, {
+  "ward" : "43",
+  "project_id" : "C06.30148",
+  "project_description" : "Mitchells Plain Wastewater Treatment Wor"
+}
+, {
+  "ward" : "43",
+  "project_id" : "C11.86060",
+  "project_description" : "Philippi Collector Sewer"
+}
+, {
+  "ward" : "43",
+  "project_id" : "C13.86010",
+  "project_description" : "Mitchells Plain WWTW-Improvements Phase2"
+}
+, {
+  "ward" : "43",
+  "project_id" : "CPX.0002469",
+  "project_description" : "Upgrade parks in Ward 43"
+}
+, {
+  "ward" : "43",
+  "project_id" : "CPX.0003018",
+  "project_description" : "Blue Waters Res Furniture, Fittings, Equ"
+}
+, {
+  "ward" : "44",
+  "project_id" : "CPX.0002118",
+  "project_description" : "Upgrading of Lighting in play park"
+}
+, {
+  "ward" : "44",
+  "project_id" : "CPX.0002119",
+  "project_description" : "Upgrading of Lighting POS"
+}
+, {
+  "ward" : "44",
+  "project_id" : "C12.86083",
+  "project_description" : "New Rest Reticulation Rectification"
+}
+, {
+  "ward" : "44",
+  "project_id" : "CPX.0003443",
+  "project_description" : "Upgrade of Cockcomb Park - Heideveld"
+}
+, {
+  "ward" : "44",
+  "project_id" : "C14.95023",
+  "project_description" : "Synthetic Pitch - Heideveld"
+}
+, {
+  "ward" : "44",
+  "project_id" : "CPX.0002405",
+  "project_description" : "Furniture and Equipment for Heideveld"
+}
+, {
+  "ward" : "44",
+  "project_id" : "CPX.0002496",
+  "project_description" : "Furniture and Equipment:Heideveld Lib"
+}
+, {
+  "ward" : "44",
+  "project_id" : "CPX.0001934",
+  "project_description" : "Traffic Calming in Ward 44"
+}
+, {
+  "ward" : "44",
+  "project_id" : "C10.15434",
+  "project_description" : "Heideveld CRU Project (864 units)"
+}
+, {
+  "ward" : "44",
+  "project_id" : "C11.15449",
+  "project_description" : "Heideveld SEFP & USDG Project"
+}
+, {
+  "ward" : "44",
+  "project_id" : "CPX.0002171",
+  "project_description" : "Lighting at Gugulethu Ward 44 Hostels"
+}
+, {
+  "ward" : "44",
+  "project_id" : "C10.15510",
+  "project_description" : "Heideveld Duinefontein Housing Project"
+}
+, {
+  "ward" : "44",
+  "project_id" : "C16.00101",
+  "project_description" : "Heideveld ECD"
+}
+, {
+  "ward" : "45",
+  "project_id" : "CPX.0002339",
+  "project_description" : "Upgrading of Play Parks in Ward 45"
+}
+, {
+  "ward" : "45",
+  "project_id" : "CPX.0002407",
+  "project_description" : "Furniture and Equipment for Gugulethu"
+}
+, {
+  "ward" : "46",
+  "project_id" : "CPX.0002655",
+  "project_description" : "Park Equipment"
+}
+, {
+  "ward" : "46",
+  "project_id" : "CPX.0001765",
+  "project_description" : "2 Speedhumps Voorspoed & Welby Inter"
+}
+, {
+  "ward" : "46",
+  "project_id" : "CPX.0001769",
+  "project_description" : "6 Speed humps in Lynburg Rd H/Park"
+}
+, {
+  "ward" : "46",
+  "project_id" : "CPX.0001771",
+  "project_description" : "4 Speed Humps in Turflyn Walk H/Park"
+}
+, {
+  "ward" : "47",
+  "project_id" : "CPX.0002653",
+  "project_description" : "Greening of parks in Newfields"
+}
+, {
+  "ward" : "47",
+  "project_id" : "CPX.0002654",
+  "project_description" : "Installation of park - Jungletown"
+}
+, {
+  "ward" : "47",
+  "project_id" : "CPX.0003439",
+  "project_description" : "Upgrade of Surran Road Park"
+}
+, {
+  "ward" : "47",
+  "project_id" : "CPX.0002628",
+  "project_description" : "Books & Audio Visual Equip Hanover Park"
+}
+, {
+  "ward" : "47",
+  "project_id" : "CPX.0002662",
+  "project_description" : "Furniture for Hanover Park Library"
+}
+, {
+  "ward" : "47",
+  "project_id" : "C10.15433",
+  "project_description" : "Hanover Park CRU Project (1680 units)"
+}
+, {
+  "ward" : "47",
+  "project_id" : "C11.15448",
+  "project_description" : "Hanover Park SEFP & USDG Project"
+}
+, {
+  "ward" : "48",
+  "project_id" : "CPX.0002652",
+  "project_description" : "Paving/Tarring at POS - Penlyn Primary"
+}
+, {
+  "ward" : "48",
+  "project_id" : "CPX.0002860",
+  "project_description" : "Asphalting of parking area Hazel Rd SF"
+}
+, {
+  "ward" : "48",
+  "project_id" : "CPX.0002626",
+  "project_description" : "Purchasing of books Rylands Library"
+}
+, {
+  "ward" : "48",
+  "project_id" : "CPX.0001741",
+  "project_description" : "Tarring of sidewalk 0pp Athlone Stadium"
+}
+, {
+  "ward" : "48",
+  "project_id" : "CPX.0004001",
+  "project_description" : "Traffic Calming in Ward 48"
+}
+, {
+  "ward" : "49",
+  "project_id" : "C13.86053",
+  "project_description" : "Completion of Cape Flats III Bulk Sewer"
+}
+, {
+  "ward" : "49",
+  "project_id" : "C13.86081",
+  "project_description" : "Athlone WWTW-Capacity Extension-phase 1"
+}
+, {
+  "ward" : "49",
+  "project_id" : "CPX.0002341",
+  "project_description" : "Upgrading and Greening in Ward 49"
+}
+, {
+  "ward" : "49",
+  "project_id" : "C14.95025",
+  "project_description" : "Synthetic Pitch - Kewtown"
+}
+, {
+  "ward" : "49",
+  "project_id" : "CPX.0002695",
+  "project_description" : "Lighting on Clover Crescent Sports Field"
+}
+, {
+  "ward" : "49",
+  "project_id" : "CPX.0001937",
+  "project_description" : "Traffic Calming in Ward 49"
+}
+, {
+  "ward" : "49",
+  "project_id" : "C13.11107",
+  "project_description" : "CCTV roll out Athlone"
+}
+, {
+  "ward" : "49",
+  "project_id" : "C07.00437",
+  "project_description" : "Hazendal Housing Project"
+}
+, {
+  "ward" : "49",
+  "project_id" : "C14.17309",
+  "project_description" : "Construction of ECD - Nantes"
+}
+, {
+  "ward" : "50",
+  "project_id" : "CPX.0003415",
+  "project_description" : "Upgrade of Sequoia Park"
+}
+, {
+  "ward" : "50",
+  "project_id" : "C14.95082",
+  "project_description" : "Bonteheuwel Sport Field-Ext. brick wall"
+}
+, {
+  "ward" : "50",
+  "project_id" : "CPX.0002852",
+  "project_description" : "Installation of Disabled Toilet"
+}
+, {
+  "ward" : "50",
+  "project_id" : "CPX.0002622",
+  "project_description" : "Furniture for Bonteheuwel Library"
+}
+, {
+  "ward" : "50",
+  "project_id" : "CPX.0002624",
+  "project_description" : "Books & AV Material for Bonteheuwel Lib."
+}
+, {
+  "ward" : "50",
+  "project_id" : "CPX.0001780",
+  "project_description" : "Traffic Calming: Dissel Road Bonteheuwel"
+}
+, {
+  "ward" : "50",
+  "project_id" : "CPX.0002267",
+  "project_description" : "Electrical fencing at Apricot Place"
+}
+, {
+  "ward" : "51",
+  "project_id" : "CPX.0002491",
+  "project_description" : "Park Upgrades: W51"
+}
+, {
+  "ward" : "51",
+  "project_id" : "CPX.0002092",
+  "project_description" : "Construct Sidewalks"
+}
+, {
+  "ward" : "51",
+  "project_id" : "C11.15418",
+  "project_description" : "Langa Hostels CRU Project (463 units)"
+}
+, {
+  "ward" : "51",
+  "project_id" : "CPX.0003149",
+  "project_description" : "Langa Hostels CRU Project (868 units)"
+}
+, {
+  "ward" : "51",
+  "project_id" : "CPX.0003524",
+  "project_description" : "Langa Pass Office"
+}
+, {
+  "ward" : "51",
+  "project_id" : "CPX.0003526",
+  "project_description" : "Langa Heritage Precinct Development"
+}
+, {
+  "ward" : "52",
+  "project_id" : "CPX.0002295",
+  "project_description" : "Park Upgrade: Mshumpela Park"
+}
+, {
+  "ward" : "52",
+  "project_id" : "CPX.0002340",
+  "project_description" : "Park Upgrades: Zone 16"
+}
+, {
+  "ward" : "53",
+  "project_id" : "C07.00407",
+  "project_description" : "Northern Area Sewer Thornton"
+}
+, {
+  "ward" : "53",
+  "project_id" : "CPX.0002383",
+  "project_description" : "Additional Park Equipment: Ward 53"
+}
+, {
+  "ward" : "53",
+  "project_id" : "CPX.0002528",
+  "project_description" : "Pinelands Library: Shelving"
+}
+, {
+  "ward" : "53",
+  "project_id" : "CPX.0002099",
+  "project_description" : "Erect Fencing: Albatross"
+}
+, {
+  "ward" : "53",
+  "project_id" : "CPX.0002101",
+  "project_description" : "Traffic Calming: W53"
+}
+, {
+  "ward" : "53",
+  "project_id" : "C11.14704",
+  "project_description" : "Establish the Maitland Impound Facility"
+}
+, {
+  "ward" : "53",
+  "project_id" : "CPX.0003195",
+  "project_description" : "Upgrade public space along Bhunga Ave"
+}
+, {
+  "ward" : "54",
+  "project_id" : "CPX.0002535",
+  "project_description" : "Upgrade of Parks Ward 54"
+}
+, {
+  "ward" : "54",
+  "project_id" : "CPX.0002536",
+  "project_description" : "Signage in Parks and POS Ward 54"
+}
+, {
+  "ward" : "54",
+  "project_id" : "CPX.0003915",
+  "project_description" : "Upgrade of Sea Point Promenade"
+}
+, {
+  "ward" : "54",
+  "project_id" : "CPX.0002835",
+  "project_description" : "Signage in Ward 54 Beachfront"
+}
+, {
+  "ward" : "54",
+  "project_id" : "CPX.0002836",
+  "project_description" : "Sea Point Civic Centre Upgrade"
+}
+, {
+  "ward" : "54",
+  "project_id" : "C11.10311",
+  "project_description" : "Green Point Promenade Upgrade"
+}
+, {
+  "ward" : "54",
+  "project_id" : "CPX.0001738",
+  "project_description" : "Upgrade of steps and sidewalks Ward 54"
+}
+, {
+  "ward" : "54",
+  "project_id" : "CPX.0003076",
+  "project_description" : "Establishment of Public Art Ward 54"
+}
+, {
+  "ward" : "54",
+  "project_id" : "C14.00039",
+  "project_description" : "Upgrade Generator Exhaust Extract System"
+}
+, {
+  "ward" : "54",
+  "project_id" : "C14.00040",
+  "project_description" : "Construction Waste Room at CT Stadium"
+}
+, {
+  "ward" : "54",
+  "project_id" : "C14.00042",
+  "project_description" : "Install Electronic Advertising Board:CTS"
+}
+, {
+  "ward" : "54",
+  "project_id" : "C14.00044",
+  "project_description" : "Provision of lifts for empty shafts: CTS"
+}
+, {
+  "ward" : "54",
+  "project_id" : "C14.00047",
+  "project_description" : "Completion of change rooms at CT Stadium"
+}
+, {
+  "ward" : "55",
+  "project_id" : "C10.84050",
+  "project_description" : "Koeberg Rd Switching Station Phase 2"
+}
+, {
+  "ward" : "55",
+  "project_id" : "CPX.0002384",
+  "project_description" : "Upgrade Parks: Ward 55"
+}
+, {
+  "ward" : "55",
+  "project_id" : "CPX.0002477",
+  "project_description" : "Upgrade Justin Street Park"
+}
+, {
+  "ward" : "55",
+  "project_id" : "CPX.0002478",
+  "project_description" : "Upgrade Van der Stel Park"
+}
+, {
+  "ward" : "55",
+  "project_id" : "CPX.0002479",
+  "project_description" : "Upgrade Spencer Road Park"
+}
+, {
+  "ward" : "55",
+  "project_id" : "CPX.0002480",
+  "project_description" : "Upgrade Albow Gardens Park"
+}
+, {
+  "ward" : "55",
+  "project_id" : "CPX.0002547",
+  "project_description" : "Woodstock Library: Material"
+}
+, {
+  "ward" : "55",
+  "project_id" : "CPX.0002103",
+  "project_description" : "Install Embayments: Valentyn Rd Tijerhof"
+}
+, {
+  "ward" : "55",
+  "project_id" : "CPX.0002577",
+  "project_description" : "Main Rd Upgrade: City to Mowbray"
+}
+, {
+  "ward" : "55",
+  "project_id" : "CPX.0003198",
+  "project_description" : "Upgrade of Public Space"
+}
+, {
+  "ward" : "56",
+  "project_id" : "CPX.0002725",
+  "project_description" : "Erect Christmas Tree"
+}
+, {
+  "ward" : "56",
+  "project_id" : "C07.00674",
+  "project_description" : "Maitland Cemetery Upgrade Roads & Infras"
+}
+, {
+  "ward" : "56",
+  "project_id" : "CPX.0002385",
+  "project_description" : "Park Upgrades: Ward 56"
+}
+, {
+  "ward" : "56",
+  "project_id" : "CPX.0002387",
+  "project_description" : "Park Upgrades: Glider and Albacore"
+}
+, {
+  "ward" : "56",
+  "project_id" : "CPX.0003377",
+  "project_description" : "Maitland Crematorium - Install Cremators"
+}
+, {
+  "ward" : "56",
+  "project_id" : "CPX.0002549",
+  "project_description" : "Kensington Library: Furniture&Equipment"
+}
+, {
+  "ward" : "56",
+  "project_id" : "CPX.0002567",
+  "project_description" : "Maitland Library: Furniture & Equipment"
+}
+, {
+  "ward" : "56",
+  "project_id" : "CPX.0002569",
+  "project_description" : "Maitland Library: Library Material"
+}
+, {
+  "ward" : "56",
+  "project_id" : "CPX.0002571",
+  "project_description" : "Kensington Library: Library Material"
+}
+, {
+  "ward" : "57",
+  "project_id" : "CPX.0002472",
+  "project_description" : "Upgrade Cecil Rd Park"
+}
+, {
+  "ward" : "57",
+  "project_id" : "CPX.0002473",
+  "project_description" : "Upgrade the Plantation: Crassula"
+}
+, {
+  "ward" : "57",
+  "project_id" : "CPX.0002474",
+  "project_description" : "Erect Drinking Fountain"
+}
+, {
+  "ward" : "57",
+  "project_id" : "CPX.0002475",
+  "project_description" : "Erect Picnic Tables: Maynard St Park"
+}
+, {
+  "ward" : "57",
+  "project_id" : "CPX.0002476",
+  "project_description" : "Erect Fence: Alsace Road"
+}
+, {
+  "ward" : "57",
+  "project_id" : "CPX.0002563",
+  "project_description" : "Mowbray Library - Books, CDs & DVDs"
+}
+, {
+  "ward" : "57",
+  "project_id" : "CPX.0002565",
+  "project_description" : "Mowbray Library - Furniture"
+}
+, {
+  "ward" : "57",
+  "project_id" : "CPX.0002094",
+  "project_description" : "Traffic Calming: W57"
+}
+, {
+  "ward" : "57",
+  "project_id" : "C13.13113",
+  "project_description" : "Extensions for ARV and TB Spencer Road"
+}
+, {
+  "ward" : "57",
+  "project_id" : "CPX.0002581",
+  "project_description" : "Main Rd Upgrade: City to Mowbray"
+}
+, {
+  "ward" : "58",
+  "project_id" : "CPX.0002380",
+  "project_description" : "Upgrade of Parks in Ward 58"
+}
+, {
+  "ward" : "58",
+  "project_id" : "CPX.0001719",
+  "project_description" : "Upgrade of Roads in Ward 58"
+}
+, {
+  "ward" : "58",
+  "project_id" : "C14.00035",
+  "project_description" : "Upgrade of Athlone Stadium"
+}
+, {
+  "ward" : "58",
+  "project_id" : "C14.00036",
+  "project_description" : "Install big TV's: Athlone Stadium"
+}
+, {
+  "ward" : "59",
+  "project_id" : "CPX.0002381",
+  "project_description" : "Upgrade of Paradise Park, Newlands"
+}
+, {
+  "ward" : "59",
+  "project_id" : "CPX.0002422",
+  "project_description" : "Upgrade of Palmboom Park"
+}
+, {
+  "ward" : "59",
+  "project_id" : "CPX.0002423",
+  "project_description" : "Upgrade of parks and equipment"
+}
+, {
+  "ward" : "59",
+  "project_id" : "CPX.0002428",
+  "project_description" : "Upgrade irrigation Arderne Gardens"
+}
+, {
+  "ward" : "59",
+  "project_id" : "CPX.0002429",
+  "project_description" : "Upgrade of Liesbeek"
+}
+, {
+  "ward" : "59",
+  "project_id" : "CPX.0002430",
+  "project_description" : "Planting of trees and purchasing pots"
+}
+, {
+  "ward" : "59",
+  "project_id" : "CPX.0003319",
+  "project_description" : "Upgrading of Arderne Gardens - Irrigatio"
+}
+, {
+  "ward" : "59",
+  "project_id" : "CPX.0003320",
+  "project_description" : "Upgrading of Arderne Gardens"
+}
+, {
+  "ward" : "59",
+  "project_id" : "CPX.0002409",
+  "project_description" : "Media materials for Rondebosch Library"
+}
+, {
+  "ward" : "59",
+  "project_id" : "CPX.0002411",
+  "project_description" : "Rondebosch Library Smartcape expansion"
+}
+, {
+  "ward" : "59",
+  "project_id" : "CPX.0002433",
+  "project_description" : "Media materials for Claremont Library"
+}
+, {
+  "ward" : "59",
+  "project_id" : "CPX.0001734",
+  "project_description" : "Upgrade of roads in Ward 59"
+}
+, {
+  "ward" : "59",
+  "project_id" : "CPX.0001736",
+  "project_description" : "Mount Road carriage way crossing"
+}
+, {
+  "ward" : "60",
+  "project_id" : "CPX.0002600",
+  "project_description" : "Chukker Road wetlands fencing"
+}
+, {
+  "ward" : "60",
+  "project_id" : "CPX.0002601",
+  "project_description" : "Purchase of play equipment for parks"
+}
+, {
+  "ward" : "60",
+  "project_id" : "CPX.0002861",
+  "project_description" : "Upgrade of Chukker Road Flood Lights"
+}
+, {
+  "ward" : "60",
+  "project_id" : "CPX.0002630",
+  "project_description" : "Lansdowne Library courtyard improvement"
+}
+, {
+  "ward" : "60",
+  "project_id" : "CPX.0001754",
+  "project_description" : "2 Speedhumps Crawford Rd"
+}
+, {
+  "ward" : "60",
+  "project_id" : "CPX.0001759",
+  "project_description" : "2 Speedhumps Albert Rd Lansdowne"
+}
+, {
+  "ward" : "60",
+  "project_id" : "CPX.0001761",
+  "project_description" : "1 Speedhump Sunnyside Rd Crawford"
+}
+, {
+  "ward" : "60",
+  "project_id" : "CPX.0001767",
+  "project_description" : "R/Intersection Trematon & Station Rd"
+}
+, {
+  "ward" : "61",
+  "project_id" : "CPX.0003467",
+  "project_description" : "Upgrade Park in Ocean View"
+}
+, {
+  "ward" : "61",
+  "project_id" : "C06.41570",
+  "project_description" : "Ocean View - Mountain View Hsg Project"
+}
+, {
+  "ward" : "61",
+  "project_id" : "C15.00060",
+  "project_description" : "Ocean View Safe Haven"
+}
+, {
+  "ward" : "62",
+  "project_id" : "CPX.0002431",
+  "project_description" : "Upgrade of parks and POS in Ward 62"
+}
+, {
+  "ward" : "62",
+  "project_id" : "CPX.0003373",
+  "project_description" : "Upgrade perimeter fence - Maynardville P"
+}
+, {
+  "ward" : "62",
+  "project_id" : "CPX.0003374",
+  "project_description" : "Upgrade of Wynberg Park - Master Plan"
+}
+, {
+  "ward" : "62",
+  "project_id" : "CPX.0002435",
+  "project_description" : "Media materials for Wynberg Library"
+}
+, {
+  "ward" : "62",
+  "project_id" : "C11.10541",
+  "project_description" : "Nyanga Main Taxi Rank"
+}
+, {
+  "ward" : "62",
+  "project_id" : "CPX.0001718",
+  "project_description" : "Upgrade of roads in Ward 62"
+}
+, {
+  "ward" : "63",
+  "project_id" : "CPX.0002726",
+  "project_description" : "Lighting: Koraal Street Park, Ottery"
+}
+, {
+  "ward" : "63",
+  "project_id" : "CPX.0003481",
+  "project_description" : "Upgrade of Parks - Ottery"
+}
+, {
+  "ward" : "63",
+  "project_id" : "CPX.0003482",
+  "project_description" : "Upgrade of Freedom Park"
+}
+, {
+  "ward" : "63",
+  "project_id" : "CPX.0003483",
+  "project_description" : "Upgrade of Bonnietown"
+}
+, {
+  "ward" : "63",
+  "project_id" : "CPX.0002833",
+  "project_description" : "Installation of fence Wilttebome Civic"
+}
+, {
+  "ward" : "63",
+  "project_id" : "CPX.0002834",
+  "project_description" : "Installation of lighting in ward 63"
+}
+, {
+  "ward" : "63",
+  "project_id" : "CPX.0002526",
+  "project_description" : "Lotus River Library: Media Material"
+}
+, {
+  "ward" : "63",
+  "project_id" : "CPX.0002766",
+  "project_description" : "Replacement Wynberg EHO offices"
+}
+, {
+  "ward" : "64",
+  "project_id" : "C08.86038",
+  "project_description" : "Main Rd Upgrade M/Berg to Clovelly Rehab"
+}
+, {
+  "ward" : "64",
+  "project_id" : "CPX.0003284",
+  "project_description" : "Upgrade Zandvlei District Park"
+}
+, {
+  "ward" : "64",
+  "project_id" : "CPX.0002498",
+  "project_description" : "Upgrade of Fish Hoek Library & Grounds"
+}
+, {
+  "ward" : "64",
+  "project_id" : "CPX.0001941",
+  "project_description" : "Upgrade Rds & S/Water Infrastructure"
+}
+, {
+  "ward" : "65",
+  "project_id" : "CPX.0002260",
+  "project_description" : "Upgrade of parks in ward 65"
+}
+, {
+  "ward" : "65",
+  "project_id" : "CPX.0003478",
+  "project_description" : "Upgrade of Parks - Lotus River"
+}
+, {
+  "ward" : "65",
+  "project_id" : "CPX.0001910",
+  "project_description" : "Traffic calming in ward 65"
+}
+, {
+  "ward" : "66",
+  "project_id" : "CPX.0002296",
+  "project_description" : "Upgrade of parks in ward 66"
+}
+, {
+  "ward" : "66",
+  "project_id" : "C08.10325",
+  "project_description" : "Pelican Park: Strandfontein Road Upgr"
+}
+, {
+  "ward" : "66",
+  "project_id" : "CPX.0001924",
+  "project_description" : "Traffic calming in ward 66"
+}
+, {
+  "ward" : "66",
+  "project_id" : "CPX.0001926",
+  "project_description" : "Construction: kerb & channell/sidewalks"
+}
+, {
+  "ward" : "66",
+  "project_id" : "C10.15435",
+  "project_description" : "Marble Flats CRU Project (688 units)"
+}
+, {
+  "ward" : "66",
+  "project_id" : "C11.15450",
+  "project_description" : "Marble Flats SEFP & USDG Project"
+}
+, {
+  "ward" : "66",
+  "project_id" : "C12.15506",
+  "project_description" : "Edward Street: Grassy Park Development"
+}
+, {
+  "ward" : "66",
+  "project_id" : "C16.00100",
+  "project_description" : "Lotus River Field Crescent ECD"
+}
+, {
+  "ward" : "67",
+  "project_id" : "C13.86005",
+  "project_description" : "Cape Flats WWTW-Refurbish various struct"
+}
+, {
+  "ward" : "67",
+  "project_id" : "C14.94134",
+  "project_description" : "Park Upgrades in Vrygrond"
+}
+, {
+  "ward" : "67",
+  "project_id" : "CPX.0002470",
+  "project_description" : "Upgrade Parks"
+}
+, {
+  "ward" : "67",
+  "project_id" : "CPX.0003480",
+  "project_description" : "Upgrade of Parks - Eagle Park"
+}
+, {
+  "ward" : "67",
+  "project_id" : "C08.95073",
+  "project_description" : "Sea Winds Sports Complex Phase 3"
+}
+, {
+  "ward" : "67",
+  "project_id" : "C14.95067",
+  "project_description" : "Gym Equipment for Sports Centre"
+}
+, {
+  "ward" : "67",
+  "project_id" : "CPX.0003787",
+  "project_description" : "Vrygrond PTF"
+}
+, {
+  "ward" : "67",
+  "project_id" : "C13.13110",
+  "project_description" : "New Pelican Park Clinic"
+}
+, {
+  "ward" : "68",
+  "project_id" : "CPX.0002334",
+  "project_description" : "Upgrade of parks in ward 68"
+}
+, {
+  "ward" : "68",
+  "project_id" : "C14.95022",
+  "project_description" : "Synthetic Pitch - Steenberg"
+}
+, {
+  "ward" : "68",
+  "project_id" : "CPX.0001712",
+  "project_description" : "Upgrade of road infrastructure ward 68"
+}
+, {
+  "ward" : "68",
+  "project_id" : "CPX.0001714",
+  "project_description" : "Construct embayment in ward 68"
+}
+, {
+  "ward" : "68",
+  "project_id" : "C14.13901",
+  "project_description" : "Ext Records Lavender Hill clinic"
+}
+, {
+  "ward" : "68",
+  "project_id" : "CPX.0002170",
+  "project_description" : "Upgrade of Rental Flats in Lavender Hill"
+}
+, {
+  "ward" : "68",
+  "project_id" : "CPX.0002589",
+  "project_description" : "Urban Agriculture Food project"
+}
+, {
+  "ward" : "69",
+  "project_id" : "CPX.0004006",
+  "project_description" : "Noordhoek LV Depot"
+}
+, {
+  "ward" : "69",
+  "project_id" : "C10.86030",
+  "project_description" : "Wildevoelvlei WWTW-Upgrade dewatering"
+}
+, {
+  "ward" : "69",
+  "project_id" : "CPX.0003470",
+  "project_description" : "Upgrade Park in Masiphumelele"
+}
+, {
+  "ward" : "69",
+  "project_id" : "CPX.0002500",
+  "project_description" : "Upgrade of Masiphumele Library & Grounds"
+}
+, {
+  "ward" : "69",
+  "project_id" : "C11.10539",
+  "project_description" : "Masiphumelele (Site 5) Taxi Rank"
+}
+, {
+  "ward" : "69",
+  "project_id" : "CPX.0002420",
+  "project_description" : "Kommetjie Road Upgrade"
+}
+, {
+  "ward" : "69",
+  "project_id" : "C14.13900",
+  "project_description" : "Ext Records Ocean View Clinic"
+}
+, {
+  "ward" : "69",
+  "project_id" : "CPX.0002767",
+  "project_description" : "Masiphumlele Clinic"
+}
+, {
+  "ward" : "69",
+  "project_id" : "CPX.0003205",
+  "project_description" : "Masiphumelele Housing Project Phase 4"
+}
+, {
+  "ward" : "70",
+  "project_id" : "CPX.0002555",
+  "project_description" : "Upgrade POS - Doordekraal Ave, Kenridge"
+}
+, {
+  "ward" : "70",
+  "project_id" : "CPX.0002556",
+  "project_description" : "Upgrade POS - Angelier Rd, Doordekraal"
+}
+, {
+  "ward" : "70",
+  "project_id" : "CPX.0002557",
+  "project_description" : "Fencing of POS Erf 37592, Oude Westhof"
+}
+, {
+  "ward" : "70",
+  "project_id" : "CPX.0001806",
+  "project_description" : "New pavement: Kommissaris St. Welgemoed"
+}
+, {
+  "ward" : "70",
+  "project_id" : "CPX.0001808",
+  "project_description" : "New footpaths in Van Riebeeckshof Road"
+}
+, {
+  "ward" : "71",
+  "project_id" : "C07.00048",
+  "project_description" : "Blue Route Interceptor Sewer"
+}
+, {
+  "ward" : "71",
+  "project_id" : "CPX.0002462",
+  "project_description" : "Upgrade of parks in Ward 71"
+}
+, {
+  "ward" : "71",
+  "project_id" : "CPX.0003473",
+  "project_description" : "Upgrade Parks in Westlake"
+}
+, {
+  "ward" : "71",
+  "project_id" : "CPX.0002889",
+  "project_description" : "Westlake Office Development"
+}
+, {
+  "ward" : "72",
+  "project_id" : "C08.84049",
+  "project_description" : "Retreat Depot - Replace. for Muizenberg"
+}
+, {
+  "ward" : "72",
+  "project_id" : "CPX.0002463",
+  "project_description" : "Upgrade of parks and POS in Ward 72"
+}
+, {
+  "ward" : "72",
+  "project_id" : "CPX.0003484",
+  "project_description" : "Upgrade of Southfield"
+}
+, {
+  "ward" : "72",
+  "project_id" : "C14.95056",
+  "project_description" : "Upgrade of Groenewald Sports Facility"
+}
+, {
+  "ward" : "72",
+  "project_id" : "C14.95058",
+  "project_description" : "Upgrade of D'Oliviera Sports Facility"
+}
+, {
+  "ward" : "72",
+  "project_id" : "CPX.0002714",
+  "project_description" : "Upgrade of Allenby sports facility"
+}
+, {
+  "ward" : "72",
+  "project_id" : "CPX.0002452",
+  "project_description" : "Retreat Library furniture and equipment"
+}
+, {
+  "ward" : "72",
+  "project_id" : "CPX.0001732",
+  "project_description" : "Upgrade of Roads in Ward 72"
+}
+, {
+  "ward" : "73",
+  "project_id" : "CPX.0002724",
+  "project_description" : "Installation of Christmas lights"
+}
+, {
+  "ward" : "73",
+  "project_id" : "CPX.0002464",
+  "project_description" : "Upgrade parks and POS in Ward 73"
+}
+, {
+  "ward" : "73",
+  "project_id" : "CPX.0003475",
+  "project_description" : "Upgrade of Plumstead Cemetery"
+}
+, {
+  "ward" : "73",
+  "project_id" : "C14.95057",
+  "project_description" : "Upgrade of Plumstead Sports Facility"
+}
+, {
+  "ward" : "73",
+  "project_id" : "CPX.0002686",
+  "project_description" : "Nets for Plumstead Cricket Club"
+}
+, {
+  "ward" : "73",
+  "project_id" : "CPX.0002454",
+  "project_description" : "Media materials for Plumstead Library"
+}
+, {
+  "ward" : "73",
+  "project_id" : "CPX.0002456",
+  "project_description" : "Media materials for Southfield Library"
+}
+, {
+  "ward" : "73",
+  "project_id" : "CPX.0002458",
+  "project_description" : "Media materials for Meadowridge Library"
+}
+, {
+  "ward" : "73",
+  "project_id" : "CPX.0002460",
+  "project_description" : "Furniture and equip Plumstead Library"
+}
+, {
+  "ward" : "73",
+  "project_id" : "CPX.0002492",
+  "project_description" : "Furniture, equipment Southfield Library"
+}
+, {
+  "ward" : "73",
+  "project_id" : "CPX.0001752",
+  "project_description" : "Kerb inlays in Ward 73"
+}
+, {
+  "ward" : "73",
+  "project_id" : "CPX.0001758",
+  "project_description" : "Upgrade of Roads in Ward 73"
+}
+, {
+  "ward" : "74",
+  "project_id" : "C13.84075",
+  "project_description" : "Hout Bay LV Depot"
+}
+, {
+  "ward" : "74",
+  "project_id" : "C12.86057",
+  "project_description" : "Hout Bay Outfall-Refurbish equipment"
+}
+, {
+  "ward" : "74",
+  "project_id" : "C12.94007",
+  "project_description" : "Upgrade Camps Bay Beach Front"
+}
+, {
+  "ward" : "74",
+  "project_id" : "CPX.0002521",
+  "project_description" : "Upgrade POS outside Sentinel School"
+}
+, {
+  "ward" : "74",
+  "project_id" : "CPX.0002532",
+  "project_description" : "Fencing in Ward 74"
+}
+, {
+  "ward" : "74",
+  "project_id" : "CPX.0002534",
+  "project_description" : "Hout Bay Common Upgrade"
+}
+, {
+  "ward" : "74",
+  "project_id" : "CPX.0002537",
+  "project_description" : "Camps Bay Beach Busking Area"
+}
+, {
+  "ward" : "74",
+  "project_id" : "CPX.0003308",
+  "project_description" : "Upgrade of Hout Bay Common"
+}
+, {
+  "ward" : "74",
+  "project_id" : "CPX.0003446",
+  "project_description" : "Upgrade of Parks & POS in Hangberg"
+}
+, {
+  "ward" : "74",
+  "project_id" : "CPX.0003447",
+  "project_description" : "Upgrade of Parks & POS in Imizamo Yethu"
+}
+, {
+  "ward" : "74",
+  "project_id" : "CPX.0003932",
+  "project_description" : "Upgrade of Parks & POS in Hangberg"
+}
+, {
+  "ward" : "74",
+  "project_id" : "CPX.0003958",
+  "project_description" : "Upgrade of Parks & POS in Hangberg"
+}
+, {
+  "ward" : "74",
+  "project_id" : "CPX.0002922",
+  "project_description" : "Construction new library at Imizamo Yeth"
+}
+, {
+  "ward" : "74",
+  "project_id" : "CPX.0001804",
+  "project_description" : "Albert Road Hout Bay-3 speed humps"
+}
+, {
+  "ward" : "74",
+  "project_id" : "C12.13122",
+  "project_description" : "Hout Bay/Imizamo Yethu - upgrade"
+}
+, {
+  "ward" : "74",
+  "project_id" : "C10.15509",
+  "project_description" : "Hangberg CRU 70 Units"
+}
+, {
+  "ward" : "74",
+  "project_id" : "C14.18307",
+  "project_description" : "Imizamu Yethu Sporting Precinct: Upgrade"
+}
+, {
+  "ward" : "75",
+  "project_id" : "CPX.0002641",
+  "project_description" : "Lights in parks - Ward 75"
+}
+, {
+  "ward" : "75",
+  "project_id" : "CPX.0002377",
+  "project_description" : "Upgrading of Parks (Area 16)"
+}
+, {
+  "ward" : "75",
+  "project_id" : "CPX.0002378",
+  "project_description" : "Upgrading of Parks (Area 17)"
+}
+, {
+  "ward" : "75",
+  "project_id" : "CPX.0002382",
+  "project_description" : "Establishment of Park - Ward 75"
+}
+, {
+  "ward" : "75",
+  "project_id" : "CPX.0001949",
+  "project_description" : "Traffic Calming - Ward 75"
+}
+, {
+  "ward" : "75",
+  "project_id" : "CPX.0001953",
+  "project_description" : "Sidewalks - Ward 75"
+}
+, {
+  "ward" : "76",
+  "project_id" : "CPX.0002708",
+  "project_description" : "Lights in parks - Ward 76"
+}
+, {
+  "ward" : "76",
+  "project_id" : "CPX.0002379",
+  "project_description" : "Upgrading of Parks (Area 16)"
+}
+, {
+  "ward" : "76",
+  "project_id" : "CPX.0002424",
+  "project_description" : "Upgrading of Parks (Area 17)"
+}
+, {
+  "ward" : "76",
+  "project_id" : "C06.41752",
+  "project_description" : "Lentegeur & Mandalay Station PTI's:Dsg"
+}
+, {
+  "ward" : "76",
+  "project_id" : "CPX.0001958",
+  "project_description" : "Traffic Calming Ward 76"
+}
+, {
+  "ward" : "76",
+  "project_id" : "C13.17306",
+  "project_description" : "Construct ECD Centres-Lenteguer"
+}
+, {
+  "ward" : "77",
+  "project_id" : "C13.84076",
+  "project_description" : "City Depot CBD - New"
+}
+, {
+  "ward" : "77",
+  "project_id" : "C14.84076",
+  "project_description" : "Bloemhof: Stores Upgrade"
+}
+, {
+  "ward" : "77",
+  "project_id" : "C12.94008",
+  "project_description" : "Company's Garden"
+}
+, {
+  "ward" : "77",
+  "project_id" : "C14.94131",
+  "project_description" : "Two Rivers Urban Park - Development"
+}
+, {
+  "ward" : "77",
+  "project_id" : "CPX.0002481",
+  "project_description" : "Kloof Street Park - Gravel Pathway"
+}
+, {
+  "ward" : "77",
+  "project_id" : "CPX.0002512",
+  "project_description" : "Kloof Street Park - Upgrade Play Surface"
+}
+, {
+  "ward" : "77",
+  "project_id" : "CPX.0002513",
+  "project_description" : "Homestead Park Upgrade"
+}
+, {
+  "ward" : "77",
+  "project_id" : "CPX.0002514",
+  "project_description" : "Rocklands Park - Install Rubber Surfaces"
+}
+, {
+  "ward" : "77",
+  "project_id" : "CPX.0002516",
+  "project_description" : "Bryan Street Park - Picnic Tables"
+}
+, {
+  "ward" : "77",
+  "project_id" : "CPX.0002518",
+  "project_description" : "Upper Leeuwen Street Park Upgrade"
+}
+, {
+  "ward" : "77",
+  "project_id" : "CPX.0002519",
+  "project_description" : "Lower Molteno Reservoir POS Upgrade"
+}
+, {
+  "ward" : "77",
+  "project_id" : "CPX.0002520",
+  "project_description" : "Rugley Road Park Upgrade"
+}
+, {
+  "ward" : "77",
+  "project_id" : "CPX.0002097",
+  "project_description" : "Upgrade Entrance to TRUP"
+}
+, {
+  "ward" : "77",
+  "project_id" : "CPX.0004113",
+  "project_description" : "Basement Parking & Access"
+}
+, {
+  "ward" : "77",
+  "project_id" : "C11.12501",
+  "project_description" : "FM Structural Rehabilitation"
+}
+, {
+  "ward" : "77",
+  "project_id" : "C14.00046",
+  "project_description" : "Temporary Distribution Boards for rental"
+}
+, {
+  "ward" : "77",
+  "project_id" : "C15.00043",
+  "project_description" : "Upgrade to Grand Parade"
+}
+, {
+  "ward" : "77",
+  "project_id" : "C15.00044",
+  "project_description" : "Replacement of Servers"
+}
+, {
+  "ward" : "77",
+  "project_id" : "C15.00045",
+  "project_description" : "Upgrade & Replace Turnstiles"
+}
+, {
+  "ward" : "77",
+  "project_id" : "C15.00046",
+  "project_description" : "HMI/BMS System Upgrades"
+}
+, {
+  "ward" : "77",
+  "project_id" : "C15.00049",
+  "project_description" : "Dust Filtration at all Substations"
+}
+, {
+  "ward" : "77",
+  "project_id" : "C15.00052",
+  "project_description" : "Change over System for Electronic Room"
+}
+, {
+  "ward" : "77",
+  "project_id" : "C15.00053",
+  "project_description" : "Relocate Roof Access Hatch Power Supply"
+}
+, {
+  "ward" : "77",
+  "project_id" : "C16.00044",
+  "project_description" : "Multi-Media Upgrade"
+}
+, {
+  "ward" : "77",
+  "project_id" : "C16.00045",
+  "project_description" : "Upgrade & Replace Turnstiles"
+}
+, {
+  "ward" : "77",
+  "project_id" : "C16.00048",
+  "project_description" : "Install aircon in level 1 Media & Confer"
+}
+, {
+  "ward" : "77",
+  "project_id" : "C16.00049",
+  "project_description" : "Install aircon circulating water pump"
+}
+, {
+  "ward" : "77",
+  "project_id" : "C16.00050",
+  "project_description" : "Replace all lamps with LED technology"
+}
+, {
+  "ward" : "77",
+  "project_id" : "CPX.0002005",
+  "project_description" : "Upgrade of Good Hope Centre"
+}
+, {
+  "ward" : "78",
+  "project_id" : "CPX.0002471",
+  "project_description" : "Upgrade Park/Landscape World DC"
+}
+, {
+  "ward" : "78",
+  "project_id" : "CPX.0002831",
+  "project_description" : "Sound System,accessories: Stephen Reagan"
+}
+, {
+  "ward" : "78",
+  "project_id" : "CPX.0002522",
+  "project_description" : "Purchase Library Books: Westridge Lib"
+}
+, {
+  "ward" : "78",
+  "project_id" : "CPX.0001981",
+  "project_description" : "Traffic Calming Measures:Ward 78"
+}
+, {
+  "ward" : "79",
+  "project_id" : "CPX.0002482",
+  "project_description" : "Upgrading Park Ward 79 WDC"
+}
+, {
+  "ward" : "79",
+  "project_id" : "CPX.0002524",
+  "project_description" : "Purchase Library Books: Town CentreW79"
+}
+, {
+  "ward" : "79",
+  "project_id" : "C07.01059",
+  "project_description" : "Mitchell's Plain Station TI"
+}
+, {
+  "ward" : "80",
+  "project_id" : "CPX.0002335",
+  "project_description" : "Upgrade of parks in ward 80"
+}
+, {
+  "ward" : "80",
+  "project_id" : "CPX.0003463",
+  "project_description" : "Development of Park - Sweethomes Park"
+}
+, {
+  "ward" : "80",
+  "project_id" : "CPX.0003466",
+  "project_description" : "Development of Park - Vukuzenzele Park"
+}
+, {
+  "ward" : "80",
+  "project_id" : "CPX.0003477",
+  "project_description" : "Upgrade of Ottery Cemetery"
+}
+, {
+  "ward" : "80",
+  "project_id" : "CPX.0001945",
+  "project_description" : "Traffic Calming Measures in Ward 80"
+}
+, {
+  "ward" : "80",
+  "project_id" : "C14.14415",
+  "project_description" : "Upgrading of MPD Training Centre"
+}
+, {
+  "ward" : "80",
+  "project_id" : "C13.15703",
+  "project_description" : "Hazeldean Housing Project Services"
+}
+, {
+  "ward" : "81",
+  "project_id" : "C12.86082",
+  "project_description" : "Water Supply at Baden Powell Dr to Khaye"
+}
+, {
+  "ward" : "81",
+  "project_id" : "CPX.0002488",
+  "project_description" : "Upgrade Park/Landscape World DC"
+}
+, {
+  "ward" : "81",
+  "project_id" : "CPX.0002830",
+  "project_description" : "Life Saving Equipment Mnandi Beach"
+}
+, {
+  "ward" : "81",
+  "project_id" : "CPX.0002832",
+  "project_description" : "Sporting Equipment Rocklands Civic"
+}
+, {
+  "ward" : "81",
+  "project_id" : "CPX.0001985",
+  "project_description" : "Traffic Calming Measures:Ward 81"
+}
+, {
+  "ward" : "82",
+  "project_id" : "CPX.0002490",
+  "project_description" : "Upgrade Park Cathedral &Cathkin,Tafelsig"
+}
+, {
+  "ward" : "82",
+  "project_id" : "CPX.0001987",
+  "project_description" : "Traffic Calming Measures Ward 82"
+}
+, {
+  "ward" : "82",
+  "project_id" : "C12.13121",
+  "project_description" : "Tafelsig Clinic Extensions and Upgrade"
+}
+, {
+  "ward" : "83",
+  "project_id" : "CPX.0002647",
+  "project_description" : "Upgrade of parks, ward 83"
+}
+, {
+  "ward" : "83",
+  "project_id" : "C05.01503",
+  "project_description" : "Flood Alleviation - Lourens River"
+}
+, {
+  "ward" : "83",
+  "project_id" : "C08.10285",
+  "project_description" : "Dualling: Broadway Blvd:Beach Rd:MR27"
+}
+, {
+  "ward" : "83",
+  "project_id" : "CPX.0001696",
+  "project_description" : "Building sidewalks, ward 83"
+}
+, {
+  "ward" : "83",
+  "project_id" : "C14.18308",
+  "project_description" : "Strand Pavillion Precinct Upgrade"
+}
+, {
+  "ward" : "83",
+  "project_id" : "C13.17305",
+  "project_description" : "Construct ECD Centres-Strand(Erjaville)"
+}
+, {
+  "ward" : "84",
+  "project_id" : "C14.94122",
+  "project_description" : "Development of new Depot for Strand Park"
+}
+, {
+  "ward" : "84",
+  "project_id" : "CPX.0002648",
+  "project_description" : "Upgrade of parks, ward 84"
+}
+, {
+  "ward" : "84",
+  "project_id" : "CPX.0003315",
+  "project_description" : "Somerset Main Road Landscape Development"
+}
+, {
+  "ward" : "84",
+  "project_id" : "CPX.0003436",
+  "project_description" : "Upgrade of Chris Nissen Park POS"
+}
+, {
+  "ward" : "84",
+  "project_id" : "C08.10286",
+  "project_description" : "Widening: Lourensford Rd: MR9 Parel Vall"
+}
+, {
+  "ward" : "84",
+  "project_id" : "C11.10552",
+  "project_description" : "Somerset West PTI"
+}
+, {
+  "ward" : "84",
+  "project_id" : "CPX.0001794",
+  "project_description" : "Curb stone pavement Dummer Street"
+}
+, {
+  "ward" : "84",
+  "project_id" : "CPX.0001836",
+  "project_description" : "Kerbs, Andries Pretorius and Caledon St"
+}
+, {
+  "ward" : "84",
+  "project_id" : "CPX.0001838",
+  "project_description" : "Roads in Garden Village"
+}
+, {
+  "ward" : "84",
+  "project_id" : "CPX.0001853",
+  "project_description" : "Speed calming, ward 84"
+}
+, {
+  "ward" : "85",
+  "project_id" : "C11.10544",
+  "project_description" : "Nomzamo Public Transport Facility"
+}
+, {
+  "ward" : "85",
+  "project_id" : "C14.10359",
+  "project_description" : "Nomzamo Bridge, Publc Transprt interchng"
+}
+, {
+  "ward" : "85",
+  "project_id" : "CPX.0001855",
+  "project_description" : "Canalisation of Solly's Town canal"
+}
+, {
+  "ward" : "85",
+  "project_id" : "CPX.0001860",
+  "project_description" : "Sidewalk, Simon Street, Nomzamo"
+}
+, {
+  "ward" : "85",
+  "project_id" : "CPX.0001864",
+  "project_description" : "Speed calming, Lonja Street"
+}
+, {
+  "ward" : "85",
+  "project_id" : "CPX.0001870",
+  "project_description" : "Tarred walkway, Lonja and Tyawe St"
+}
+, {
+  "ward" : "86",
+  "project_id" : "CPX.0002651",
+  "project_description" : "Fencing of play park near Umtata tavern"
+}
+, {
+  "ward" : "86",
+  "project_id" : "CPX.0003434",
+  "project_description" : "Upgrade of Park: Lwandle"
+}
+, {
+  "ward" : "86",
+  "project_id" : "C13.95018",
+  "project_description" : "Lwandle Spectator Stand"
+}
+, {
+  "ward" : "86",
+  "project_id" : "CPX.0001882",
+  "project_description" : "Sidewalk in Michael Street, Nomzamo"
+}
+, {
+  "ward" : "86",
+  "project_id" : "CPX.0001884",
+  "project_description" : "Raised intersection in Rusthof Street"
+}
+, {
+  "ward" : "86",
+  "project_id" : "CPX.0004035",
+  "project_description" : "Sidewalks: Lwandle, Ward 86"
+}
+, {
+  "ward" : "86",
+  "project_id" : "C08.15507",
+  "project_description" : "Morkel's Cottage Strand Housing Project"
+}
+, {
+  "ward" : "87",
+  "project_id" : "CPX.0002304",
+  "project_description" : "Purchasing of Loud Hailer"
+}
+, {
+  "ward" : "87",
+  "project_id" : "CPX.0002317",
+  "project_description" : "SmartCape Computer - K/sha Site B Lib"
+}
+, {
+  "ward" : "87",
+  "project_id" : "C13.00054",
+  "project_description" : "Nolungile (Site C) PTI"
+}
+, {
+  "ward" : "87",
+  "project_id" : "CPX.0002020",
+  "project_description" : "Speedhumps in Ward 87"
+}
+, {
+  "ward" : "87",
+  "project_id" : "CPX.0003791",
+  "project_description" : "Nonqubela PTI"
+}
+, {
+  "ward" : "87",
+  "project_id" : "C14.00069",
+  "project_description" : "Upgrade Heritage Facility site C"
+}
+, {
+  "ward" : "88",
+  "project_id" : "CPX.0001692",
+  "project_description" : "Ward Allocations 1415 - Subcouncil 23"
+}
+, {
+  "ward" : "88",
+  "project_id" : "CPX.0002709",
+  "project_description" : "Lights in Park - Ward 88"
+}
+, {
+  "ward" : "88",
+  "project_id" : "CPX.0002425",
+  "project_description" : "Establishment of park (area 17)"
+}
+, {
+  "ward" : "88",
+  "project_id" : "CPX.0002426",
+  "project_description" : "Upgrading of parks - New Woodlands"
+}
+, {
+  "ward" : "88",
+  "project_id" : "CPX.0002427",
+  "project_description" : "Upgrading of parks - Ward 88"
+}
+, {
+  "ward" : "88",
+  "project_id" : "CPX.0003452",
+  "project_description" : "Development of Parks -The Leagues"
+}
+, {
+  "ward" : "88",
+  "project_id" : "CPX.0003456",
+  "project_description" : "Development of Park-Heinz Park"
+}
+, {
+  "ward" : "88",
+  "project_id" : "CPX.0001961",
+  "project_description" : "Traffic Calming within Ward 88"
+}
+, {
+  "ward" : "89",
+  "project_id" : "CPX.0002014",
+  "project_description" : "Purchasing of Loud Hailer"
+}
+, {
+  "ward" : "90",
+  "project_id" : "CPX.0002016",
+  "project_description" : "Purchasing of Loud Hailer"
+}
+, {
+  "ward" : "91",
+  "project_id" : "CPX.0002112",
+  "project_description" : "Purchasing of Loud Hailer"
+}
+, {
+  "ward" : "91",
+  "project_id" : "CPX.0002319",
+  "project_description" : "SmartCape Computer - Moses Mabhida Lib"
+}
+, {
+  "ward" : "92",
+  "project_id" : "CPX.0002710",
+  "project_description" : "Street Lights at D-Section in Ward 92"
+}
+, {
+  "ward" : "92",
+  "project_id" : "C09.94008",
+  "project_description" : "Khayelitsha Wetlands Park Upgrade"
+}
+, {
+  "ward" : "92",
+  "project_id" : "CPX.0002466",
+  "project_description" : "Upgrading of Parks in Ward 92"
+}
+, {
+  "ward" : "92",
+  "project_id" : "CPX.0002543",
+  "project_description" : "Replacement clinic Zakhele"
+}
+, {
+  "ward" : "92",
+  "project_id" : "C11.00159",
+  "project_description" : "URP Upgrade of Lookout Hill Facility"
+}
+, {
+  "ward" : "93",
+  "project_id" : "C11.16804",
+  "project_description" : "Upgrading of Vuyani Market Facilities"
+}
+, {
+  "ward" : "93",
+  "project_id" : "CPX.0002467",
+  "project_description" : "Fencing of Wetlands Park in Ward 93"
+}
+, {
+  "ward" : "93",
+  "project_id" : "CPX.0001964",
+  "project_description" : "Traffic Calming in Ward 93"
+}
+, {
+  "ward" : "94",
+  "project_id" : "C11.10553",
+  "project_description" : "Khayelitsha CBD PTI"
+}
+, {
+  "ward" : "94",
+  "project_id" : "CPX.0001969",
+  "project_description" : "Side Walks in Ward 94"
+}
+, {
+  "ward" : "94",
+  "project_id" : "CPX.0001973",
+  "project_description" : "Construction of Speedhumps in Ward 94"
+}
+, {
+  "ward" : "94",
+  "project_id" : "C12.13125",
+  "project_description" : "New Site B youth clinic"
+}
+, {
+  "ward" : "94",
+  "project_id" : "C13.15503",
+  "project_description" : "URP Khayelitsha CBD Project - 402 Units"
+}
+, {
+  "ward" : "95",
+  "project_id" : "CPX.0004042",
+  "project_description" : "Upgrading of parks in Ward 95"
+}
+, {
+  "ward" : "95",
+  "project_id" : "CPX.0001991",
+  "project_description" : "Sidewalks in Zwelitsha in Ward 95"
+}
+, {
+  "ward" : "95",
+  "project_id" : "C13.13112",
+  "project_description" : "Upgrade and Extensions Kuyasa Clinic"
+}
+, {
+  "ward" : "96",
+  "project_id" : "CPX.0004021",
+  "project_description" : "Installation of street lights- Nyanda St"
+}
+, {
+  "ward" : "96",
+  "project_id" : "CPX.0002859",
+  "project_description" : "Purchase PA System for Desmond Tutu Hall"
+}
+, {
+  "ward" : "96",
+  "project_id" : "CPX.0004037",
+  "project_description" : "Construction of sidewalks in ward 96"
+}
+, {
+  "ward" : "97",
+  "project_id" : "CPX.0001722",
+  "project_description" : "Ward Allocations 1415 - Subcouncil 24"
+}
+, {
+  "ward" : "97",
+  "project_id" : "C10.96010",
+  "project_description" : "New Regional Library Kuyasa Khayelitsha"
+}
+, {
+  "ward" : "97",
+  "project_id" : "C12.96005",
+  "project_description" : "IT equipment Kuyasa Library, Khayelitsha"
+}
+, {
+  "ward" : "97",
+  "project_id" : "C12.96007",
+  "project_description" : "Furniture Kuyasa Lib - Carnegie III"
+}
+, {
+  "ward" : "97",
+  "project_id" : "C13.10523",
+  "project_description" : "Kuyasa Libry Precinct:Walter Sisulu Road"
+}
+, {
+  "ward" : "97",
+  "project_id" : "CPX.0001989",
+  "project_description" : "Traffic calming measures in Ward 97"
+}
+, {
+  "ward" : "98",
+  "project_id" : "C12.96030",
+  "project_description" : "Books - Carnegie III"
+}
+, {
+  "ward" : "98",
+  "project_id" : "C11.13105",
+  "project_description" : "Khayelitsha EHO and Health Facilities"
+}
+, {
+  "ward" : "99",
+  "project_id" : "CPX.0002711",
+  "project_description" : "Area Lighting in Ward 99"
+}
+, {
+  "ward" : "99",
+  "project_id" : "CPX.0002718",
+  "project_description" : "Area Lighting in Ward 99"
+}
+, {
+  "ward" : "99",
+  "project_id" : "CPX.0002468",
+  "project_description" : "Upgrading of Parks in Ward 99"
+}
+, {
+  "ward" : "99",
+  "project_id" : "CPX.0003487",
+  "project_description" : "Upgrade of Parks - Lost City"
+}
+, {
+  "ward" : "99",
+  "project_id" : "CPX.0001976",
+  "project_description" : "Traffic Calming Measures in Ward 99"
+}
+, {
+  "ward" : "99",
+  "project_id" : "CPX.0001978",
+  "project_description" : "Side Walks in Ward 99"
+}
+, {
+  "ward" : "100",
+  "project_id" : "C12.84063",
+  "project_description" : "Steenbras: Rehab. of Exist. Structures"
+}
+, {
+  "ward" : "100",
+  "project_id" : "C14.84071",
+  "project_description" : "Steenbras: Refurbishment of Main Plant"
+}
+, {
+  "ward" : "100",
+  "project_id" : "C15.84070",
+  "project_description" : "Steenbras: Reline Steel Penstock"
+}
+, {
+  "ward" : "100",
+  "project_id" : "C08.11114",
+  "project_description" : "Trappies Sewerage System"
+}
+, {
+  "ward" : "100",
+  "project_id" : "C12.94017",
+  "project_description" : "Fencing of Parks (Strand service Area)"
+}
+, {
+  "ward" : "100",
+  "project_id" : "CPX.0002673",
+  "project_description" : "Partial development and upgrade of parks"
+}
+, {
+  "ward" : "100",
+  "project_id" : "C08.04407",
+  "project_description" : "Vlakteplaas Bulk Roads & S/water"
+}
+, {
+  "ward" : "100",
+  "project_id" : "C08.10283",
+  "project_description" : "Upgr: Gravel St's: Mission Grounds, SLP"
+}
+, {
+  "ward" : "100",
+  "project_id" : "C09.00021",
+  "project_description" : "Extension of Broadway Blvd : Broadlands"
+}
+, {
+  "ward" : "100",
+  "project_id" : "C09.91031",
+  "project_description" : "South Fork, Strand - roads & storm water"
+}
+, {
+  "ward" : "100",
+  "project_id" : "C13.10518",
+  "project_description" : "Construct:Broadway Blvd, Nomzamo/Lwandle"
+}
+, {
+  "ward" : "100",
+  "project_id" : "C13.10536",
+  "project_description" : "Saxdown Road - S West Construction"
+}
+, {
+  "ward" : "100",
+  "project_id" : "C14.10323",
+  "project_description" : "Sir Lowry's Pass River Upgrade"
+}
+, {
+  "ward" : "100",
+  "project_id" : "C14.10324",
+  "project_description" : "Sir Lowry's Pass Village Road Upgrade"
+}
+, {
+  "ward" : "100",
+  "project_id" : "CPX.0001887",
+  "project_description" : "Construction of Sidewalks in Ward 100"
+}
+, {
+  "ward" : "100",
+  "project_id" : "CPX.0001890",
+  "project_description" : "Speed calming, ward 100"
+}
+, {
+  "ward" : "100",
+  "project_id" : "CPX.0002141",
+  "project_description" : "Sir Lowry's Pass Clinic"
+}
+, {
+  "ward" : "101",
+  "project_id" : "C14.94098",
+  "project_description" : "Wallacedene Phase 6: Park Development"
+}
+, {
+  "ward" : "101",
+  "project_id" : "CPX.0003351",
+  "project_description" : "Upgrade Bloekombos Park"
+}
+, {
+  "ward" : "101",
+  "project_id" : "CPX.0002844",
+  "project_description" : "Bloekombos Sport Complex: Floodlights"
+}
+, {
+  "ward" : "101",
+  "project_id" : "CPX.0002856",
+  "project_description" : "Bloekombos S/F: Upgrade"
+}
+, {
+  "ward" : "101",
+  "project_id" : "CPX.0003111",
+  "project_description" : "Bloekombos PTI: Upgrade"
+}
+, {
+  "ward" : "101",
+  "project_id" : "CPX.0001811",
+  "project_description" : "Ward 101: Traffic Calming"
+}
+, {
+  "ward" : "101",
+  "project_id" : "CPX.0002680",
+  "project_description" : "Bloekombos Clinic"
+}
+, {
+  "ward" : "101",
+  "project_id" : "C16.00070",
+  "project_description" : "Wallacedene Social Dev Hub"
+}
+, {
+  "ward" : "102",
+  "project_id" : "CPX.0002531",
+  "project_description" : "R300 Rd Reserve: Recreational Space"
+}
+, {
+  "ward" : "102",
+  "project_id" : "CPX.0002612",
+  "project_description" : "Park Upgrade: Peerless Park North"
+}
+, {
+  "ward" : "102",
+  "project_id" : "CPX.0002845",
+  "project_description" : "Brackenfell Sport Complex: Upgrade"
+}
+, {
+  "ward" : "102",
+  "project_id" : "CPX.0002584",
+  "project_description" : "Brackenfell Library: Library Material"
+}
+, {
+  "ward" : "102",
+  "project_id" : "CPX.0002587",
+  "project_description" : "Kraaifontein Library: Library Material"
+}
+, {
+  "ward" : "102",
+  "project_id" : "CPX.0001823",
+  "project_description" : "Traffic Calming: Hout Street, Kftn"
+}
+, {
+  "ward" : "102",
+  "project_id" : "CPX.0002585",
+  "project_description" : "Establish Trading Area: Brackenfell Cent"
+}
+, {
+  "ward" : "103",
+  "project_id" : "C15.84071",
+  "project_description" : "Broad Road Main Substation Upgrade Ph 3"
+}
+, {
+  "ward" : "103",
+  "project_id" : "C06.30147",
+  "project_description" : "Kraaifontein Wastewater Treatment Works"
+}
+, {
+  "ward" : "103",
+  "project_id" : "C14.86073",
+  "project_description" : "Fisantekraal Housing Garden City - Water"
+}
+, {
+  "ward" : "103",
+  "project_id" : "C14.86074",
+  "project_description" : "Fisantekraal Housing Garden City - Sewer"
+}
+, {
+  "ward" : "103",
+  "project_id" : "C09.94004",
+  "project_description" : "Dev. DistrictPark: Zoo Park Kraaifontein"
+}
+, {
+  "ward" : "103",
+  "project_id" : "CPX.0002613",
+  "project_description" : "Goedemoed Park: Fencing"
+}
+, {
+  "ward" : "103",
+  "project_id" : "CPX.0002620",
+  "project_description" : "Sonstraal Dam: Park Furniture"
+}
+, {
+  "ward" : "103",
+  "project_id" : "CPX.0002621",
+  "project_description" : "Ward 103: Park Upgrade"
+}
+, {
+  "ward" : "103",
+  "project_id" : "CPX.0002642",
+  "project_description" : "Morningstar: Park Upgrade"
+}
+, {
+  "ward" : "103",
+  "project_id" : "CPX.0003403",
+  "project_description" : "Development of Morningstar Park"
+}
+, {
+  "ward" : "103",
+  "project_id" : "CPX.0003407",
+  "project_description" : "Develop Kraaifontein Informal Sport Park"
+}
+, {
+  "ward" : "103",
+  "project_id" : "CPX.0002846",
+  "project_description" : "Kraaifontein S/F: Upgrade"
+}
+, {
+  "ward" : "103",
+  "project_id" : "C05.00973",
+  "project_description" : "Construct Rds:De Villiers Rd"
+}
+, {
+  "ward" : "103",
+  "project_id" : "CPX.0001825",
+  "project_description" : "Ward 103: Sidewalk Construction"
+}
+, {
+  "ward" : "103",
+  "project_id" : "CPX.0001827",
+  "project_description" : "Ward 103: Traffic Calming"
+}
+, {
+  "ward" : "103",
+  "project_id" : "CPX.0002302",
+  "project_description" : "Ward 103: Purchase of 1x Radio (LEO)"
+}
+, {
+  "ward" : "103",
+  "project_id" : "C12.15510",
+  "project_description" : "Morningstar Durbanville Housing Project"
+}
+, {
+  "ward" : "104",
+  "project_id" : "C07.00500",
+  "project_description" : "Atlantis: Development of Corridor - M12"
+}
+, {
+  "ward" : "104",
+  "project_id" : "C11.10536",
+  "project_description" : "Dunoon Taxi Terminus"
+}
+, {
+  "ward" : "104",
+  "project_id" : "C13.15705",
+  "project_description" : "Vissershok (Site Establishment)"
+}
+, {
+  "ward" : "104",
+  "project_id" : "C14.17304",
+  "project_description" : "Construct ECD Centres-Du Noon"
+}
+, {
+  "ward" : "105",
+  "project_id" : "C13.86044",
+  "project_description" : "Philadelphia WWTW-Improvement"
+}
+, {
+  "ward" : "105",
+  "project_id" : "C14.86056",
+  "project_description" : "Spes Bona Reservoir 35 Ml"
+}
+, {
+  "ward" : "105",
+  "project_id" : "CPX.0002643",
+  "project_description" : "Richwood: Park Upgrade"
+}
+, {
+  "ward" : "105",
+  "project_id" : "CPX.0002644",
+  "project_description" : "Ward 105: Park Upgrade"
+}
+, {
+  "ward" : "105",
+  "project_id" : "CPX.0002645",
+  "project_description" : "Philadelphia POS: Establish Water Supply"
+}
+, {
+  "ward" : "105",
+  "project_id" : "CPX.0002646",
+  "project_description" : "R300 Rd Reserve:"
+}
+, {
+  "ward" : "105",
+  "project_id" : "CPX.0003406",
+  "project_description" : "Development of Fisantekraal Park"
+}
+, {
+  "ward" : "105",
+  "project_id" : "CPX.0002853",
+  "project_description" : "Fisantekraal S/F: Cloak Room Upgrade"
+}
+, {
+  "ward" : "105",
+  "project_id" : "CPX.0002854",
+  "project_description" : "Fisantekraal S/F: Rehabilitation"
+}
+, {
+  "ward" : "105",
+  "project_id" : "CPX.0002855",
+  "project_description" : "Fisantekraal S/F: Equipment"
+}
+, {
+  "ward" : "105",
+  "project_id" : "CPX.0001792",
+  "project_description" : "Traffic Calming: Baronetcy Boulevard"
+}
+, {
+  "ward" : "105",
+  "project_id" : "C13.13108",
+  "project_description" : "New Fisantekraal Clinic"
+}
+, {
+  "ward" : "105",
+  "project_id" : "CPX.0002701",
+  "project_description" : "Fisantekraal Garden Cities Phase 1"
+}
+, {
+  "ward" : "105",
+  "project_id" : "CPX.0003134",
+  "project_description" : "Fisantekraal Garden Cities Phase 2"
+}
+, {
+  "ward" : "106",
+  "project_id" : "C16.86015",
+  "project_description" : "Bardale upgrade sewers"
+}
+, {
+  "ward" : "106",
+  "project_id" : "C11.94075",
+  "project_description" : "Delft Cemetery Development"
+}
+, {
+  "ward" : "106",
+  "project_id" : "C14.94068",
+  "project_description" : "Upgrading of Kunene Park, Leiden, Delft"
+}
+, {
+  "ward" : "106",
+  "project_id" : "C14.94071",
+  "project_description" : "Upgrading Milhous Str Park, Delft South"
+}
+, {
+  "ward" : "106",
+  "project_id" : "CPX.0002618",
+  "project_description" : "Upgrade of Parks - Ward 106"
+}
+, {
+  "ward" : "106",
+  "project_id" : "CPX.0002619",
+  "project_description" : "Concrete palisade fencing-Mango Crescent"
+}
+, {
+  "ward" : "107",
+  "project_id" : "CPX.0002597",
+  "project_description" : "Potsdam Outspan Fencing"
+}
+, {
+  "ward" : "107",
+  "project_id" : "CPX.0002758",
+  "project_description" : "Table View Clinic upgrade and ext"
+}
+, {
+  "ward" : "107",
+  "project_id" : "CPX.0002253",
+  "project_description" : "CCTV Installation FY15 - ward 107"
+}
+, {
+  "ward" : "107",
+  "project_id" : "CPX.0003144",
+  "project_description" : "CCTV Installation FY15 W107"
+}
+, {
+  "ward" : "108",
+  "project_id" : "C15.86044",
+  "project_description" : "Mfuleni: Upgrade Outfall Sewer P/station"
+}
+, {
+  "ward" : "108",
+  "project_id" : "C14.94110",
+  "project_description" : "Upgrade of Parks-Baba Park"
+}
+, {
+  "ward" : "108",
+  "project_id" : "CPX.0002485",
+  "project_description" : "Upgrade of Parks in Ward 108"
+}
+, {
+  "ward" : "108",
+  "project_id" : "C06.41540",
+  "project_description" : "Bardale / Fairdale:Develop4000Units"
+}
+, {
+  "ward" : "109",
+  "project_id" : "CPX.0002728",
+  "project_description" : "Street lights Macassar Village"
+}
+, {
+  "ward" : "109",
+  "project_id" : "C08.86027",
+  "project_description" : "Somerset West Bus. Park Main sewer"
+}
+, {
+  "ward" : "109",
+  "project_id" : "C10.86033",
+  "project_description" : "Zandvliet WWTW-Extension"
+}
+, {
+  "ward" : "109",
+  "project_id" : "C12.86059",
+  "project_description" : "Macassar WWTW-extension"
+}
+, {
+  "ward" : "109",
+  "project_id" : "C16.86014",
+  "project_description" : "Water retic at Macassar Housing Dev Area"
+}
+, {
+  "ward" : "109",
+  "project_id" : "C12.94012",
+  "project_description" : "Macassar POS system development"
+}
+, {
+  "ward" : "109",
+  "project_id" : "CPX.0002594",
+  "project_description" : "Sulphur Dioxide Monument"
+}
+, {
+  "ward" : "109",
+  "project_id" : "CPX.0002865",
+  "project_description" : "Screen & Visual Camera, curtains"
+}
+, {
+  "ward" : "109",
+  "project_id" : "CPX.0002866",
+  "project_description" : "Sheltering at Macassar Sportsfield"
+}
+, {
+  "ward" : "109",
+  "project_id" : "C09.91030",
+  "project_description" : "Croydon - Roads & Stormwater"
+}
+, {
+  "ward" : "109",
+  "project_id" : "C12.10311",
+  "project_description" : "Macasssar Housing: Roads & SW"
+}
+, {
+  "ward" : "109",
+  "project_id" : "C14.00006",
+  "project_description" : "Macassar PTI"
+}
+, {
+  "ward" : "109",
+  "project_id" : "CPX.0002080",
+  "project_description" : "Sidewalks in Makhaza"
+}
+, {
+  "ward" : "110",
+  "project_id" : "C12.94002",
+  "project_description" : "Klip Road Cemetery Extension"
+}
+, {
+  "ward" : "110",
+  "project_id" : "CPX.0002336",
+  "project_description" : "Upgrade of parks Ward 110 Grassy Park"
+}
+, {
+  "ward" : "110",
+  "project_id" : "CPX.0002337",
+  "project_description" : "Upgrade of parks ward 110 Lavender Hill"
+}
+, {
+  "ward" : "110",
+  "project_id" : "CPX.0003476",
+  "project_description" : "Upgrade of Klip Cemetery"
+}
+, {
+  "ward" : "110",
+  "project_id" : "CPX.0003479",
+  "project_description" : "Upgrade of Parks - Grassy Park"
+}
+, {
+  "ward" : "110",
+  "project_id" : "CPX.0001928",
+  "project_description" : "Upgrade of road infrastructure ward 110"
+}
+, {
+  "ward" : "110",
+  "project_id" : "C06.01622",
+  "project_description" : "Rondevlei Housing Project"
+}
+, {
+  "ward" : "111",
+  "project_id" : "C14.94099",
+  "project_description" : "Wallacedene Phase 2 & 3:Park Development"
+}
+, {
+  "ward" : "111",
+  "project_id" : "CPX.0002656",
+  "project_description" : "Park Development Memorial Park (Phase 2)"
+}
+, {
+  "ward" : "111",
+  "project_id" : "CPX.0002657",
+  "project_description" : "Tree Planting Landscaping:Frans Conradie"
+}
+, {
+  "ward" : "111",
+  "project_id" : "CPX.0001995",
+  "project_description" : "Upgrade of Sidewalk: Petunia Street"
+}
+, {
+  "ward" : "111",
+  "project_id" : "CPX.0001997",
+  "project_description" : "Installation of Traffic Calming:Ward 111"
+}
+ ]
