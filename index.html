@@ -106,13 +106,16 @@
 		}
 
 		var councillors = {};
-		$.get("./data/ward_councillors_ct_2015.json")
+		$.getJSON("data/ward_councillors_ct_2015.json")
 		.done(function(data) {
 			for(var x = 0; x < data.length; x++) {
 				councillors["ward" + data[x].ward] = data[x];
 			};
-			console.log(councillors);
-		});
+		})
+		.fail(function() {
+			console.log("Fail");
+		})
+		;
 	});
 
 	Handlebars.registerHelper('formatCurrency', function(value) {
