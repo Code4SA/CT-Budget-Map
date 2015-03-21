@@ -265,7 +265,7 @@ nav#nav-mobile {
 	  
 	.container { position: relative; margin: .5em; }
 	  
-	.leftColumn {padding: 0 1.25em;}
+	.leftColumn {padding: 0 1.25em; max-width: 50%;}
 
 	.rightColumn { border: 0px solid  #ccc; padding: 0.5em 1.25em; }
 
