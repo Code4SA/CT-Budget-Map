@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<title>City of Cape Town Capital Budget 2014/15</title>
+	<title>City of Cape Town Capital Budget 2015/16</title>
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 	<!-- <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" /> -->
@@ -27,7 +27,7 @@
 	</div>
  	<div id="content" class="container">
  		<h3>How is the capital budget being spent in your area?</h3>
-        <p>Use the menu at the top right to view different map layers. <br>Click on a ward on the map for more detailed information. <br>Show and hide more detailed information about the project using the button near the top left.</p>
+        <p>Use the menu at the top right to view different map layers. <br>Click on a ward on the map for more detailed information.</p>
  	</div>
 	<!-- include cartodb.js library -->
 	<script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
@@ -52,7 +52,7 @@
 			for(var x = 0; x < 4; x++) {
 				layers[1].getSubLayer(x).on("featureClick", function(e, latlng, pos, data, subLayerIndex) {
 					$("#content").html("<img src='http://libs.cartocdn.com/cartodb.js/v3/themes/img/loader.gif'>");
-					sql.execute("SELECT table_budget_2014_15_merge.*, table_budget_2014_15_merge.budget_2014_15 AS total_budget, march2015_projectsformap.* FROM table_budget_2014_15_merge, march2015_projectsformap WHERE table_budget_2014_15_merge.cartodb_id = {{id}} AND table_budget_2014_15_merge.wardno = march2015_projectsformap.ward AND march2015_projectsformap.budget_2014_15 >= 0", { id: data.cartodb_id })
+					sql.execute("SELECT table_budget_2015_16_merge.*, table_budget_2015_16_merge.budget_2015_16 AS total_budget, april2015_projectsformap.* FROM table_budget_2015_16_merge, april2015_projectsformap WHERE table_budget_2015_16_merge.cartodb_id = {{id}} AND table_budget_2015_16_merge.wardno = april2015_projectsformap.ward AND april2015_projectsformap.budget_2015_16 >= 0", { id: data.cartodb_id })
 					.done(function(data) {
 						console.log(data.rows[0]);
 						var template = Handlebars.compile($("#ward_template").html());
@@ -90,7 +90,7 @@
 				}
 				console.log(data);
 				ward = data.pop();
-				sql.execute("SELECT table_budget_2014_15_merge.*, table_budget_2014_15_merge.budget_2014_15 AS total_budget, march2015_projectsformap.* FROM table_budget_2014_15_merge, march2015_projectsformap WHERE table_budget_2014_15_merge.wardno = {{ward_id}} AND table_budget_2014_15_merge.wardno = march2015_projectsformap.ward AND march2015_projectsformap.budget_2014_15 > 0", { ward_id: ward.wards_no })
+				sql.execute("SELECT table_budget_2015_16_merge.*, table_budget_2015_16_merge.budget_2015_16 AS total_budget, april2015_projectsformap.* FROM table_budget_2015_16_merge, april2015_projectsformap WHERE table_budget_2015_16_merge.wardno = {{ward_id}} AND table_budget_2015_16_merge.wardno = april2015_projectsformap.ward AND april2015_projectsformap.budget_2015_16 > 0", { ward_id: ward.wards_no })
 					.done(function(data) {
 						var template = Handlebars.compile($("#ward_template").html());
 						console.log("Councillor", councillors["ward"+data.rows[0].wardno]);
@@ -128,11 +128,12 @@
  
 	</script>
 	<script type="text/x-handlebars-template" id="ward_template">
+	<div class="row">
 	<div class="leftColumn">
 		<h1>Ward <span id="ward-id">{{ ward.wardno }}</span></h1>
 		<dl>
 			<dt>Population</dt> <dd>{{ formatNumber ward.population }}</dd>
-			<dt>Number of projects</dt> <dd>{{ formatNumber ward.no_projects_2014_15 }}</dd>
+			<dt>Number of projects</dt> <dd>{{ formatNumber ward.no_projects_2015_16 }}</dd>
 			<dt>Registered Voters</dt> <dd>{{ formatNumber ward.reg_voters }}</dd>
 			<dt>Party</dt> <dd>{{ ward.wardwinner }}</dd>
 			<dt>Total Capital Project Budget</dt> <dd>{{{ formatCurrency ward.total_budget }}}</dd>
@@ -156,7 +157,7 @@
 	<div class="rightColumn">
 		<div id="capital_expenditure">
 		<h3>Expenditures</h3>
-			<table class="table table-striped table-bordered">
+			<div id="scroll"><table class="table table-striped table-bordered">
 			<tr>
 				<th>Project ID</th>
 				<th>Department</th>
@@ -168,7 +169,7 @@
 				<td>{{ project_id }}</td>
 				<td>{{ department }}</td>
 				<td>{{ description }}</td>
-				<td>{{{ formatCurrency budget_2014_15 }}}</td>
+				<td>{{{ formatCurrency budget_2015_16 }}}</td>
 			</tr>
 			{{/each}}
 			<tr>
@@ -177,11 +178,13 @@
 				<td></td>
 				<th>{{{ formatCurrency ward.total_budget }}}</th>
 			</table>
-		</div>
+			</div>
+		</div>	
 	</div>
-	
+</div>
 
 	<hr>
+<div id="demographics" class="row">
 	<h3>DEMOGRAPHICS FOR THIS WARD</h3>
 	<div id="wazi">
 		<iframe id="cr-embed-ward-{{ ward.ward_id }}-demographics-population_group_distribution" class="census-reporter-embed" src="http://embed.wazimap.co.za/static/iframe.html?geoID=ward-{{ ward.ward_id }}&chartDataID=demographics-population_group_distribution&chartType=column&chartHeight=200&chartQualifier=&chartTitle=Population+group&initialSort=&statType=scaled-percentage" frameborder="0" width="100%" height="300" style="margin: 1em; max-width: 720px;"></iframe>
@@ -195,20 +198,22 @@
 		<iframe id="cr-embed-ward-{{ ward.ward_id }}-service_delivery-toilet_facilities_distribution" class="census-reporter-embed" src="http://embed.wazimap.co.za/static/iframe.html?geoID=ward-{{ ward.ward_id }}&chartDataID=service_delivery-toilet_facilities_distribution&chartType=pie&chartHeight=200&chartQualifier=&chartTitle=Population+by+toilet+facilities&initialSort=&statType=percentage" frameborder="0" width="100%" height="300" style="margin: 1em; max-width: 300px;"></iframe>
 
 		<iframe id="cr-embed-ward-{{ ward.ward_id }}-service_delivery-refuse_disposal_distribution" class="census-reporter-embed" src="http://embed.wazimap.co.za/static/iframe.html?geoID=ward-{{ ward.ward_id }}&chartDataID=service_delivery-refuse_disposal_distribution&chartType=pie&chartHeight=200&chartQualifier=&chartTitle=Population+by+refuse+disposal&initialSort=&statType=percentage" frameborder="0" width="100%" height="300" style="margin: 1em; max-width: 300px;"></iframe>
-		
+
+</div>	
+</div>	
 		
 	</script>
     
     <!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
 		<script src="js/classie.js"></script>
         <script src="http://embed.wazimap.co.za/static/js/embed.chart.make.js"></script>
-        <script>
+<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-48399585-16', 'auto');
+  ga('create', 'UA-48399585-20', 'auto');
   ga('send', 'pageview');
 
 </script>
